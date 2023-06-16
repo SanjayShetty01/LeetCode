@@ -56,3 +56,82 @@ WARNING: Unmatched cancel notification for request id 48
 2023.04.01 16:59:13 INFO  Shutting down server
 2023.04.01 16:59:13 INFO  shutting down Metals
 2023.04.01 16:59:13 INFO  Exiting server
+2023.06.15 18:12:57 INFO  Started: Metals version 0.11.12 in workspace 'D:\Github\LeetCode' for client Visual Studio Code 1.79.0.
+Jun 15, 2023 6:12:57 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 15, 2023 6:12:57 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 15, 2023 6:12:57 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 15, 2023 6:12:58 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Github\LeetCode\.metals\metals (H2 2.1)
+Jun 15, 2023 6:12:58 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.035s)
+Jun 15, 2023 6:12:58 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jun 15, 2023 6:12:58 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.15 18:12:58 INFO  time: initialize in 0.69s
+2023.06.15 18:13:00 WARN  Build server is not auto-connectable.
+2023.06.15 18:13:00 WARN  no build tool detected in workspace 'D:\Github\LeetCode'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.15 18:13:00 WARN  no build target for: D:\Github\LeetCode\Two_Sum\two_sum_1.scala
+2023.06.15 18:13:04 INFO  no build target found for D:\Github\LeetCode\Two_Sum\two_sum_1.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.15 18:13:06 WARN  no build target for: D:\Github\LeetCode\Roman_to_integer\roman_to_integer.worksheet.sc
+2023.06.15 18:13:08 INFO  time: code lens generation in 6.37s
+2023.06.15 18:13:12 INFO  no build target found for D:\Github\LeetCode\Roman_to_integer\roman_to_integer.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.15 18:13:12 INFO  time: evaluated worksheet 'roman_to_integer.worksheet.sc' in 6.16s
+2023.06.15 18:13:22 WARN  no build target for: D:\Github\LeetCode\Roman_to_integer\roman_to_integer.worksheet.sc
+[31merror[39m: Roman_to_integer\roman_to_integer.worksheet.sc:2:38: 
+Found:    Unit
+Required: Int
+    def romanToInt(s: String): Int = {
+                                     ^
+2023.06.15 18:13:23 INFO  time: evaluated worksheet 'roman_to_integer.worksheet.sc' in 0.81s
+2023.06.15 19:16:53 WARN  no build target for: D:\Github\LeetCode\Roman_to_integer\roman_to_integer.worksheet.sc
+[33mwarning[39m: 
+roman_to_integer.worksheet.sc:18 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        def romanToInt(s: String): Int = {
+
+
+2023.06.15 19:16:54 INFO  time: evaluated worksheet 'roman_to_integer.worksheet.sc' in 1.06s
+2023.06.15 19:17:14 WARN  no build target for: D:\Github\LeetCode\Roman_to_integer\roman_to_integer.worksheet.sc
+2023.06.15 19:17:15 INFO  time: evaluated worksheet 'roman_to_integer.worksheet.sc' in 0.74s
+2023.06.15 19:17:33 WARN  no build target for: D:\Github\LeetCode\Roman_to_integer\roman_to_integer.worksheet.sc
+2023.06.15 19:17:33 INFO  time: evaluated worksheet 'roman_to_integer.worksheet.sc' in 0.53s
+2023.06.15 19:18:05 WARN  no build target for: D:\Github\LeetCode\Roman_to_integer\roman_to_integer.worksheet.sc
+2023.06.15 19:18:06 INFO  time: evaluated worksheet 'roman_to_integer.worksheet.sc' in 0.99s
+2023.06.15 19:23:20 WARN  no build target for: D:\Github\LeetCode\Roman_to_integer\roman_to_integer_1.worksheet.sc
+2023.06.15 19:23:22 INFO  no build target found for D:\Github\LeetCode\Roman_to_integer\roman_to_integer_1.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.15 19:23:22 INFO  time: evaluated worksheet 'roman_to_integer_1.worksheet.sc' in 2.52s
+2023.06.15 19:23:39 WARN  no build target for: D:\Github\LeetCode\Roman_to_integer\roman_to_integer.worksheet.sc
+2023.06.15 19:23:40 INFO  time: evaluated worksheet 'roman_to_integer.worksheet.sc' in 0.73s
+Jun 15, 2023 7:23:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1263
+2023.06.15 19:25:13 WARN  no build target for: D:\Github\LeetCode\Roman_to_integer\roman_to_integer.worksheet.sc
+[33mwarning[39m: 
+roman_to_integer.worksheet.sc:58 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        val VALUE_MAP= Map(
+
+
+2023.06.15 19:25:14 INFO  time: evaluated worksheet 'roman_to_integer.worksheet.sc' in 0.8s
+2023.06.15 19:32:37 WARN  no build target for: D:\Github\LeetCode\Roman_to_integer\roman_to_integer.worksheet.sc
+[33mwarning[39m: 
+roman_to_integer.worksheet.sc:58 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        val VALUE_MAP= Map(
+
+
+2023.06.15 19:32:38 INFO  time: evaluated worksheet 'roman_to_integer.worksheet.sc' in 0.97s
+2023.06.15 20:53:27 WARN  no build target for: D:\Github\LeetCode\Roman_to_integer\roman_to_integer.worksheet.sc
+[33mwarning[39m: 
+roman_to_integer.worksheet.sc:58 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        val VALUE_MAP= Map(
+
+
+2023.06.15 20:53:27 INFO  time: evaluated worksheet 'roman_to_integer.worksheet.sc' in 0.74s
+2023.06.16 09:35:29 INFO  Shutting down server
+2023.06.16 09:35:29 INFO  shutting down Metals
+2023.06.16 09:35:29 INFO  Exiting server

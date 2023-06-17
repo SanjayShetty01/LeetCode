@@ -182,3 +182,829 @@ roman_to_integer.worksheet.sc:58 (mdoc generated code)
 
 2023.06.16 19:25:20 INFO  no build target found for D:\Github\LeetCode\001_roman_to_integer.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
 2023.06.16 19:25:20 INFO  time: evaluated worksheet '001_roman_to_integer.worksheet.sc' in 2.88s
+Jun 17, 2023 6:38:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 230
+2023.06.17 06:39:32 WARN  no build target for: D:\Github\LeetCode\Two_Sum\two_sum_1.scala
+2023.06.17 06:40:00 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:1:28: identifier or `_' expected
+val strs : List[String] = ["flower","flow","flight"]
+                           ^^^^^^^^
+2023.06.17 06:40:02 INFO  no build target found for D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.17 06:40:02 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 2.36s
+Jun 17, 2023 6:40:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 430
+2023.06.17 06:40:26 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:3:1: 
+value MinBy is not a member of List[String] - did you mean strs.minBy?
+strs.MinBy(_.length)
+^^^^^^^^^^
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:6:60: 
+Found:    Unit
+Required: String
+    def longestCommonPrefix(strs: Array[String]): String = {
+                                                           ^
+2023.06.17 06:40:27 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.41s
+2023.06.17 06:40:41 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:3:1: 
+value MinBy is not a member of List[String] - did you mean strs.minBy?
+strs.MinBy(_.length)
+^^^^^^^^^^
+2023.06.17 06:40:41 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.23s
+2023.06.17 06:40:55 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 06:40:55 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.46s
+2023.06.17 06:41:05 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 06:41:06 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.46s
+2023.06.17 06:41:17 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 06:41:17 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.43s
+2023.06.17 06:41:22 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:3:1: 
+Not found: n
+n = strs.minBy(_.length).length() - 1
+^
+2023.06.17 06:41:22 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.19s
+2023.06.17 06:41:29 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 06:41:29 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.38s
+Jun 17, 2023 6:41:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 609
+2023.06.17 06:42:18 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 06:42:18 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.4s
+Jun 17, 2023 6:42:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 816
+2023.06.17 06:42:37 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:6:17: <- expected but { found
+for(i in 0 to n){
+                ^
+2023.06.17 06:42:37 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.24s
+2023.06.17 06:43:35 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 06:43:35 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.41s
+Jun 17, 2023 6:44:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 111 out of bounds for length 111
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 111 out of bounds for length 111
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 111 out of bounds for length 111
+	at scala.meta.tokens.Tokens.apply(Tokens.scala:34)
+	at scala.meta.internal.parsers.ScannerTokens.nextToken(ScannerTokens.scala:382)
+	at scala.meta.internal.parsers.ScannerTokens.nextToken(ScannerTokens.scala:372)
+	at scala.meta.internal.parsers.LazyTokenIterator.getNextTokenRef(LazyTokenIterator.scala:28)
+	at scala.meta.internal.parsers.LazyTokenIterator.peekToken(LazyTokenIterator.scala:153)
+	at scala.meta.internal.parsers.ScalametaParser.peekToken(ScalametaParser.scala:181)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$enumerators$1(ScalametaParser.scala:2445)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$enumerators$1$adapted(ScalametaParser.scala:2443)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:523)
+	at scala.meta.internal.parsers.ScalametaParser.enumerators(ScalametaParser.scala:2443)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1579)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:323)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:367)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1508)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$1.$anonfun$applyOrElse$2(ScalametaParser.scala:4243)
+	at scala.meta.internal.parsers.ScalametaParser.stat(ScalametaParser.scala:4280)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$1.applyOrElse(ScalametaParser.scala:4243)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$1.applyOrElse(ScalametaParser.scala:4236)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4299)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$13(ScalametaParser.scala:4524)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4524)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:320)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:366)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4479)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4472)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:320)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:366)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4472)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4477)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:127)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:124)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:46)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:124)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.parsing.Trees.$anonfun$parse$2(Trees.scala:137)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.Trees.parse(Trees.scala:130)
+	at scala.meta.internal.parsing.Trees.didChange(Trees.scala:100)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$parseTreesAndPublishDiags$2(MetalsLspService.scala:859)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Jun 17, 2023 6:44:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 112 out of bounds for length 112
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 112 out of bounds for length 112
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 112 out of bounds for length 112
+	at scala.meta.tokens.Tokens.apply(Tokens.scala:34)
+	at scala.meta.internal.parsers.ScannerTokens.nextToken(ScannerTokens.scala:382)
+	at scala.meta.internal.parsers.ScannerTokens.nextToken(ScannerTokens.scala:372)
+	at scala.meta.internal.parsers.LazyTokenIterator.getNextTokenRef(LazyTokenIterator.scala:28)
+	at scala.meta.internal.parsers.LazyTokenIterator.peekToken(LazyTokenIterator.scala:153)
+	at scala.meta.internal.parsers.ScalametaParser.peekToken(ScalametaParser.scala:181)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$enumerators$1(ScalametaParser.scala:2445)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$enumerators$1$adapted(ScalametaParser.scala:2443)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:523)
+	at scala.meta.internal.parsers.ScalametaParser.enumerators(ScalametaParser.scala:2443)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1579)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:323)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:367)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1508)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$1.$anonfun$applyOrElse$2(ScalametaParser.scala:4243)
+	at scala.meta.internal.parsers.ScalametaParser.stat(ScalametaParser.scala:4280)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$1.applyOrElse(ScalametaParser.scala:4243)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$1.applyOrElse(ScalametaParser.scala:4236)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4299)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$13(ScalametaParser.scala:4524)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4524)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:320)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:366)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4479)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4472)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:320)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:366)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4472)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4477)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:127)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:124)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:46)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:124)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.parsing.Trees.$anonfun$parse$2(Trees.scala:137)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.Trees.parse(Trees.scala:130)
+	at scala.meta.internal.parsing.Trees.didChange(Trees.scala:100)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$parseTreesAndPublishDiags$2(MetalsLspService.scala:859)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Jun 17, 2023 6:44:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+
+Jun 17, 2023 6:44:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+
+Jun 17, 2023 6:44:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+
+2023.06.17 06:44:47 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 06:44:47 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.43s
+2023.06.17 06:44:51 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 06:44:51 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.43s
+2023.06.17 06:45:31 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 06:45:31 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.41s
+2023.06.17 06:45:36 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:5:1: 
+method length in class List does not take parameters
+strs.length()
+^^^^^^^^^^^
+2023.06.17 06:45:36 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.22s
+2023.06.17 06:45:38 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 06:45:39 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.35s
+2023.06.17 06:45:43 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 06:45:44 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.38s
+Jun 17, 2023 6:46:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1222
+2023.06.17 06:46:11 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 06:46:12 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.35s
+2023.06.17 06:46:18 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 06:46:18 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.35s
+Jun 17, 2023 6:46:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1295
+2023.06.17 06:46:55 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 06:46:55 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.38s
+2023.06.17 06:47:03 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 06:47:04 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.35s
+2023.06.17 06:52:56 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 06:52:56 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.35s
+2023.06.17 06:53:00 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 06:53:00 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.4s
+2023.06.17 06:53:55 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 06:53:55 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.39s
+Jun 17, 2023 7:12:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2019
+2023.06.17 07:13:35 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:19:5: then expected but } found
+    }
+    ^
+2023.06.17 07:13:35 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.22s
+2023.06.17 07:14:25 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:19:5: then expected but } found
+    }
+    ^
+2023.06.17 07:14:25 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.2s
+2023.06.17 07:18:04 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:20:10: then expected but \n\n found
+        
+         ^
+2023.06.17 07:18:04 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.28s
+2023.06.17 07:19:21 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:17:17: 
+Not found: len
+        if(i == len(shortword) or word(i) != shortword(i)){
+                ^^^
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:18:13: 
+return outside method definition
+            return answer
+            ^^^^^^^^^^^^^
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:45 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)
+
+
+2023.06.17 07:19:21 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.26s
+2023.06.17 07:19:41 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:17:12: 
+value or is not a member of Boolean
+        if(i == shortword.length or word(i) != shortword(i)){
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:18:13: 
+return outside method definition
+            return answer
+            ^^^^^^^^^^^^^
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:45 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)
+
+
+2023.06.17 07:19:41 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.27s
+2023.06.17 07:19:51 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:18:13: 
+return outside method definition
+            return answer
+            ^^^^^^^^^^^^^
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:45 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)
+
+
+2023.06.17 07:19:52 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.24s
+2023.06.17 07:19:59 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:18:13: 
+return outside method definition
+            return(answer)
+            ^^^^^^^^^^^^^^
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:45 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)
+
+
+2023.06.17 07:20:00 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.25s
+2023.06.17 07:21:53 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:45 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)
+
+
+2023.06.17 07:21:54 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.53s
+2023.06.17 07:22:08 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:45 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)
+
+
+2023.06.17 07:22:08 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.51s
+2023.06.17 07:22:49 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:45 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)
+
+
+2023.06.17 07:22:50 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.56s
+2023.06.17 11:49:16 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:45 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)
+
+
+2023.06.17 11:49:17 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.45s
+2023.06.17 11:49:37 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:45 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)
+
+
+2023.06.17 11:49:38 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.4s
+2023.06.17 11:50:07 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:45 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)
+
+
+2023.06.17 11:50:08 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.39s
+2023.06.17 11:50:13 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:45 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)
+
+
+2023.06.17 11:50:14 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.4s
+2023.06.17 14:08:34 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:45 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)
+
+
+2023.06.17 14:08:35 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 1.26s
+2023.06.17 14:09:37 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:20:23: 
+method apply in class StringOps does not take more parameters
+    answer = answer + shortword(i)(0)
+                      ^^^^^^^^^^^^
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:45 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)(0)
+
+
+2023.06.17 14:09:37 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.2s
+2023.06.17 14:09:47 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:45 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)
+
+
+2023.06.17 14:09:47 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.41s
+2023.06.17 14:10:51 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:45 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)
+
+
+2023.06.17 14:10:52 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.4s
+2023.06.17 14:11:10 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:45 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)
+
+
+2023.06.17 14:11:10 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.53s
+2023.06.17 14:11:20 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:45 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + word(i)
+
+
+2023.06.17 14:11:20 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.35s
+2023.06.17 14:11:30 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:45 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)
+
+
+2023.06.17 14:11:30 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.39s
+2023.06.17 14:18:24 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:29:9: 
+None of the overloaded alternatives of method println in trait DocumentBuilder with types
+ (x: Any): Unit
+ (): Unit
+match arguments ((i : Int), (j : Int))
+        println(i,j)
+        ^^^^^^^
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:45 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)
+
+
+2023.06.17 14:18:24 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.32s
+Jun 17, 2023 2:18:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3510
+2023.06.17 14:18:50 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:29:9: 
+return outside method definition
+        return(i,j)
+        ^^^^^^^^^^^
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:45 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)
+
+
+2023.06.17 14:18:51 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.28s
+2023.06.17 14:19:03 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:45 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)
+
+
+2023.06.17 14:19:03 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.66s
+2023.06.17 14:21:21 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:17:40: 
+parameter word does not take parameters
+        if(i == shortword.length -1 || word(i) != shortword(i)){
+                                       ^^^^
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:45 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)
+
+
+2023.06.17 14:21:21 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.21s
+2023.06.17 14:21:28 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:45 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)
+
+
+2023.06.17 14:21:28 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.39s
+2023.06.17 14:21:34 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:45 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)
+
+
+2023.06.17 14:21:34 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.36s
+2023.06.17 14:22:08 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:47 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)
+
+
+2023.06.17 14:22:09 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.38s
+2023.06.17 14:22:16 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:45 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)
+
+
+2023.06.17 14:22:17 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.43s
+2023.06.17 14:22:59 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:46 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)
+
+
+2023.06.17 14:22:59 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.39s
+2023.06.17 14:23:12 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:46 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)
+
+
+2023.06.17 14:23:12 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.34s
+2023.06.17 14:25:14 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:47 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)
+
+
+2023.06.17 14:25:14 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.39s
+2023.06.17 14:25:36 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:46 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)
+
+
+2023.06.17 14:25:36 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.39s
+2023.06.17 14:26:12 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:45 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          answer = answer + shortword(i)
+
+
+2023.06.17 14:26:12 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.55s
+2023.06.17 14:30:21 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:42:5: 
+return outside method definition
+    return answer // Exit the loop and return the current answer
+    ^^^^^^^^^^^^^
+2023.06.17 14:30:22 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.18s
+2023.06.17 14:31:04 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:42:5: 
+Not found: break
+    break() // Exit the loop and return the current answer
+    ^^^^^
+2023.06.17 14:31:04 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.18s
+2023.06.17 14:31:26 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 14:31:27 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.38s
+2023.06.17 14:31:37 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 14:31:37 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.41s
+2023.06.17 14:33:17 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 14:33:17 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.49s
+2023.06.17 14:44:33 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 14:44:33 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.5s
+2023.06.17 14:45:06 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 14:45:06 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.51s
+2023.06.17 14:49:08 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 14:49:08 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.37s
+2023.06.17 14:49:36 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 14:49:37 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.39s
+2023.06.17 14:49:48 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:13:5: 
+value += is not a member of String - did you mean String.!=?
+    answer += currentChar
+    ^^^^^^^^^
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:13:15: 
+Not found: currentChar
+    answer += currentChar
+              ^^^^^^^^^^^
+2023.06.17 14:49:49 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.24s
+2023.06.17 14:50:03 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 14:50:03 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.35s
+Jun 17, 2023 2:51:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4523
+Jun 17, 2023 2:52:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4678
+2023.06.17 14:53:17 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 14:53:17 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.42s
+2023.06.17 14:53:52 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:53:30: 
+Found:    (MdocApp.this.strs : List[String])
+Required: Array[String]
+Solution.longestCommonPrefix(strs)
+                             ^^^^
+2023.06.17 14:53:52 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.26s
+2023.06.17 14:54:06 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:1:26: 
+Found:    Array[String]
+Required: List[String]
+val strs: List[String] = Array("flower", "flow", "flight")
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:53:30: 
+Found:    (MdocApp.this.strs : List[String])
+Required: Array[String]
+Solution.longestCommonPrefix(strs)
+                             ^^^^
+2023.06.17 14:54:06 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.26s
+2023.06.17 14:54:14 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 14:54:15 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.48s
+2023.06.17 14:57:42 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 14:57:43 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.47s
+2023.06.17 15:04:10 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:60:5: 
+Double definition:
+val strs: Array[String] in class MdocApp at line 7 and
+val strs: List[String] in class MdocApp at line 50
+
+val strs: List[String] = List("cir", "car")
+    ^
+2023.06.17 15:04:10 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.26s
+2023.06.17 15:04:22 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 15:04:22 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.33s
+2023.06.17 15:05:53 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+2023.06.17 15:05:53 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.31s
+2023.06.17 15:07:13 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:45 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(commonPrefix)
+
+
+2023.06.17 15:07:14 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.34s
+2023.06.17 15:07:38 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:23 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(commonPrefix)
+
+
+2023.06.17 15:07:38 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.3s
+2023.06.17 15:08:16 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:1:8: 
+value typeDebug is not a member of object scala.reflect.internal.TypeDebugging
+import scala.reflect.internal.TypeDebugging.typeDebug.str
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:26 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(commonPrefix)
+
+
+2023.06.17 15:08:16 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.21s
+2023.06.17 15:08:23 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[31merror[39m: 014_Longest_Common_Prefix.worksheet.sc:1:8: 
+value typeDebug is not a member of object scala.reflect.internal.TypeDebugging
+import scala.reflect.internal.TypeDebugging.typeDebug.str
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:26 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(commonPrefix)
+
+
+2023.06.17 15:08:23 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.17s
+Jun 17, 2023 3:08:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 1113,
+      "uri": "file:///d%3A/Github/LeetCode/014_Longest_Common_Prefix.worksheet.sc"
+    },
+    "contentChanges": [
+      {
+        "text": "/* val strs: Array[String] \u003d Array(\"flower\", \"flow\", \"flight\")\r\n\r\nval n: Int \u003d strs.minBy(_.length).length - 1\r\nval shortword: String \u003d strs.minBy(_.length)\r\n\r\nvar answer: String \u003d \"\"\r\n\r\nfor {\r\n  i \u003c- 0 to n\r\n} {\r\n  val allMatch \u003d strs.forall(word \u003d\u003e word(i) \u003d\u003d shortword(i))\r\n  if (allMatch) {\r\n    answer +\u003d shortword(i)\r\n  } else {\r\n        answer\r\n  }\r\n}\r\n\r\nanswer\r\n\r\n\r\n\r\nfor{i \u003c- 0 to 5\r\n    j \u003c- 1 to 3}{\r\n        print(i,j)\r\n    }\r\n */\r\n/* \r\nobject Solution {\r\n    def longestCommonPrefix(strs: Array[String]): String \u003d {\r\n\r\n        val n: Int \u003d strs.minBy(_.length).length - 1\r\n        val shortword: String \u003d strs.minBy(_.length)\r\n\r\n        var answer: String \u003d \"\"\r\n\r\n            for {\r\n                i \u003c- 0 to n\r\n                } {\r\n                    val allMatch \u003d strs.forall(word \u003d\u003e word(i) \u003d\u003d shortword(i))\r\n                        if (allMatch) {\r\n                            answer +\u003d shortword(i)\r\n                            } \r\n                        else {\r\n                            answer\r\n                            }\r\n                }\r\n\r\n        return(answer)\r\n    }\r\n}\r\n\r\nval wrong : Array[String] \u003d Array(\"Cir\", \"Car\")\r\n\r\nSolution.longestCommonPrefix(wrong)\r\n */\r\n\r\n\r\n\r\n// val strs: List[String] \u003d List(\"cir\", \"car\")\r\nval strs: Array[String] \u003d Array(\"flower\", \"flow\", \"flight\")\r\n\r\n/* val shortestWord: String \u003d strs.minBy(_.length)\r\nvar commonPrefix: String \u003d shortestWord\r\n\r\nfor (word \u003c- strs) {\r\n  while (!word.startsWith(commonPrefix)) {\r\n    commonPrefix \u003d commonPrefix.init\r\n  }\r\n}\r\n\r\ncommonPrefix\r\n */\r\n\r\nobject Solution {\r\n    def longestCommonPrefix(strs: Array[String]): String \u003d {\r\n\r\n        val shortestWord: String \u003d strs.minBy(_.length)\r\n        var commonPrefix: String \u003d shortestWord\r\n\r\n        for (word \u003c- strs) {\r\n            while (!word.startsWith(commonPrefix)) {\r\n                commonPrefix \u003d commonPrefix.init\r\n            }\r\n        }\r\n\r\n    return(commonPrefix)\r\n\r\n    }\r\n}\r\n\r\nSolution.longestCommonPrefix(strs)\r\n\r\nstrs(1)"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..1986]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:48)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:42)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:80)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:39)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionMetaPosition.toLsp(ScalametaCommonEnrichments.scala:51)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.$anonfun$toRevised$1(TokenEditDistance.scala:227)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.toRevised(TokenEditDistance.scala:149)
+	at scala.meta.internal.metals.Diagnostics.toFreshDiagnostic(Diagnostics.scala:263)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$3(Diagnostics.scala:232)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$3$adapted(Diagnostics.scala:231)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:575)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:573)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:933)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:231)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:188)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:136)
+	at scala.meta.internal.metals.MetalsLspService.didChange(MetalsLspService.scala:1265)
+	at scala.meta.metals.lsp.DelegatingScalaService.didChange(DelegatingScalaService.scala:50)
+	... 15 more
+
+2023.06.17 15:08:37 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:23 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(commonPrefix)
+
+
+2023.06.17 15:08:38 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.29s
+2023.06.17 15:08:49 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:23 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(commonPrefix)
+
+
+2023.06.17 15:08:49 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.3s
+2023.06.17 15:09:04 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:23 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(commonPrefix)
+
+
+2023.06.17 15:09:04 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.28s
+2023.06.17 15:09:09 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:23 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(commonPrefix)
+
+
+2023.06.17 15:09:09 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.29s
+2023.06.17 15:13:02 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:23 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(commonPrefix)
+
+
+2023.06.17 15:13:02 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.28s
+2023.06.17 15:13:23 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:23 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(commonPrefix)
+
+
+2023.06.17 15:13:23 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.3s
+2023.06.17 15:21:19 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:23 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(commonPrefix)
+
+
+2023.06.17 15:21:19 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.27s
+2023.06.17 15:21:34 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:23 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(commonPrefix)
+
+
+2023.06.17 15:21:34 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.29s
+2023.06.17 15:21:39 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:23 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(commonPrefix)
+
+
+2023.06.17 15:21:39 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 0.29s

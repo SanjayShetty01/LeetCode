@@ -2649,3 +2649,1092 @@ Required: Array[Any]
 
 
 2023.06.18 13:06:42 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.4s
+2023.06.18 14:04:41 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[31merror[39m: 020_Valid_Parentheses.worksheet.sc:69:1: 
+value mkString is not a member of Boolean - did you mean Boolean.toString?
+Solution.isValid(s1).mkString
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:96 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:04:41 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.3s
+2023.06.18 14:04:47 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:96 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:04:47 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.44s
+2023.06.18 14:05:04 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:96 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:05:04 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.43s
+2023.06.18 14:05:48 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:96 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:05:48 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.39s
+2023.06.18 14:06:06 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:101 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:06:07 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.38s
+2023.06.18 14:07:15 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[31merror[39m: 020_Valid_Parentheses.worksheet.sc:21:24: 
+Found:    (c : Char)
+Required: String
+        temp = temp :+ c
+                       ^
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:101 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:07:15 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.28s
+2023.06.18 14:07:25 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:101 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:07:26 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.41s
+2023.06.18 14:07:48 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:101 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:07:48 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.39s
+2023.06.18 14:07:53 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:101 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:07:53 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.41s
+2023.06.18 14:08:42 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:101 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:08:43 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.47s
+2023.06.18 14:09:03 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:101 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:09:03 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.37s
+2023.06.18 14:09:13 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:101 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:09:13 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.41s
+2023.06.18 14:09:21 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:101 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:09:21 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.4s
+2023.06.18 14:09:27 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:101 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:09:27 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.47s
+2023.06.18 14:09:43 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:106 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:09:43 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.37s
+2023.06.18 14:09:59 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:106 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:10:00 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.38s
+2023.06.18 14:10:15 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:106 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+// practice
+^
+2023.06.18 14:10:15 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:106 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+// practice
+^
+2023.06.18 14:10:17 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:106 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+// practice
+^
+2023.06.18 14:10:17 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:106 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+// practice
+^
+2023.06.18 14:10:20 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:106 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:10:20 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.34s
+2023.06.18 14:10:42 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:111 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:10:42 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.4s
+2023.06.18 14:10:57 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:111 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:10:57 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.37s
+2023.06.18 14:11:11 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:111 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+// practice
+^
+2023.06.18 14:11:11 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:111 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+// practice
+^
+2023.06.18 14:11:15 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[31merror[39m: 020_Valid_Parentheses.worksheet.sc:35:15: identifier or `_' expected
+brackets.get([)
+              ^
+2023.06.18 14:11:15 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.21s
+2023.06.18 14:11:25 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[31merror[39m: 020_Valid_Parentheses.worksheet.sc:35:14: 
+Found:    ('[' : Char)
+Required: String
+brackets.get('[')
+             ^^^
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:111 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:11:25 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.25s
+2023.06.18 14:11:39 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:111 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:11:39 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.34s
+2023.06.18 14:11:47 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:111 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:11:48 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.41s
+2023.06.18 14:12:04 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:111 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:12:04 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.37s
+2023.06.18 14:12:30 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:116 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:12:31 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.4s
+2023.06.18 14:12:44 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:116 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:12:45 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.37s
+2023.06.18 14:12:57 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:116 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:12:57 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.4s
+2023.06.18 14:13:02 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:116 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:13:03 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.38s
+2023.06.18 14:13:57 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:116 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:13:57 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.38s
+2023.06.18 14:14:06 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:116 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:14:06 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.36s
+2023.06.18 14:14:30 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:116 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:14:30 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.38s
+2023.06.18 14:14:36 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:116 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:14:36 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.31s
+2023.06.18 14:14:51 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[31merror[39m: 020_Valid_Parentheses.worksheet.sc:37:1: 
+value get is not a member of Boolean
+temp.last.equals(brackets.get(c.toString).toString).get
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:116 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:14:52 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.24s
+2023.06.18 14:15:02 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:116 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:15:03 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.38s
+2023.06.18 14:15:11 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:116 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:15:11 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.32s
+2023.06.18 14:15:17 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:116 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:15:18 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.37s
+2023.06.18 14:15:26 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:116 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+// practice
+^
+2023.06.18 14:15:26 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:116 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+// practice
+^
+2023.06.18 14:15:26 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:116 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+// practice
+^
+2023.06.18 14:15:26 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:116 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+// practice
+^
+2023.06.18 14:15:37 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:116 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:15:37 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.36s
+2023.06.18 14:15:39 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:116 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:15:40 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.35s
+2023.06.18 14:15:51 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[31merror[39m: 020_Valid_Parentheses.worksheet.sc:36:14: 
+Found:    (MdocApp.this.c : Char)
+Required: String
+brackets.get(c).get
+             ^
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:116 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:15:51 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.18s
+2023.06.18 14:15:57 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:116 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:15:57 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.33s
+2023.06.18 14:16:07 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:116 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:16:07 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.37s
+2023.06.18 14:16:41 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:121 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:16:41 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.32s
+Jun 18, 2023 2:16:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7367
+2023.06.18 14:16:54 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:121 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:16:54 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.36s
+2023.06.18 14:17:07 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:121 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:17:07 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.32s
+2023.06.18 14:19:52 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:116 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:19:52 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.31s
+2023.06.18 14:22:22 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:121 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:22:22 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.39s
+2023.06.18 14:22:25 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:121 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:22:25 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.4s
+2023.06.18 14:22:34 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:121 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+// practice
+^
+2023.06.18 14:22:34 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:121 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+// practice
+^
+2023.06.18 14:22:36 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:121 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:22:36 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.32s
+2023.06.18 14:22:43 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:121 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:22:43 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.41s
+2023.06.18 14:22:59 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:121 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:22:59 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.37s
+2023.06.18 14:23:13 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:121 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:23:13 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.37s
+2023.06.18 14:23:20 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:121 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:23:20 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.33s
+2023.06.18 14:23:24 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:121 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+// practice
+^
+2023.06.18 14:23:24 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:121 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+// practice
+^
+2023.06.18 14:23:29 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:121 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:23:30 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.41s
+2023.06.18 14:23:34 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:121 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+// practice
+^
+2023.06.18 14:23:34 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:121 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+// practice
+^
+2023.06.18 14:23:46 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:121 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:23:46 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.37s
+2023.06.18 14:23:51 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:121 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:23:51 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.38s
+2023.06.18 14:23:59 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:121 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:23:59 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.36s
+2023.06.18 14:24:11 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:121 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:24:11 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.38s
+2023.06.18 14:24:38 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:126 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:24:38 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.38s
+2023.06.18 14:25:09 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:121 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:25:09 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.38s
+2023.06.18 14:25:38 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:116 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:25:38 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.3s
+2023.06.18 14:25:56 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[31merror[39m: 020_Valid_Parentheses.worksheet.sc:29:5: 
+Double definition:
+var temp: Array[String] in class MdocApp at line 24 and
+var temp: Array[String] in class MdocApp at line 51
+
+var temp : Array[String] = Array()
+    ^
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:120 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:25:56 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.25s
+2023.06.18 14:26:06 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:116 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:26:06 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.36s
+2023.06.18 14:26:50 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:120 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:26:51 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.33s
+2023.06.18 14:27:11 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:125 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:27:11 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.32s
+2023.06.18 14:27:19 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:125 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:27:19 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.41s
+2023.06.18 14:27:31 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:120 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:27:31 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.39s
+2023.06.18 14:28:01 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:120 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:28:02 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.32s
+2023.06.18 14:32:51 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:120 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:32:51 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.44s
+2023.06.18 14:33:43 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:120 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:33:43 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.36s
+2023.06.18 14:34:04 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:115 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:34:04 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.3s
+2023.06.18 14:34:24 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:115 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+// practice
+^
+2023.06.18 14:34:24 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:115 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+// practice
+^
+2023.06.18 14:34:28 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:115 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:34:28 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.4s
+Jun 18, 2023 2:34:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8356
+2023.06.18 14:35:05 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:120 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:35:05 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.36s
+2023.06.18 14:36:59 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:120 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:36:59 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.4s
+2023.06.18 14:41:31 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:125 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:41:32 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.38s
+2023.06.18 14:41:42 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:125 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:41:42 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.36s
+2023.06.18 14:42:04 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:130 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:42:04 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.39s
+2023.06.18 14:42:52 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:125 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:42:53 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.38s
+2023.06.18 14:43:06 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:125 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:43:07 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.32s
+2023.06.18 14:43:19 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[31merror[39m: 020_Valid_Parentheses.worksheet.sc:35:22: 
+Not found: _1
+brackets.keys.forall(_1.contains("}"))
+                     ^^
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:125 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:43:20 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.26s
+2023.06.18 14:43:28 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[31merror[39m: 020_Valid_Parentheses.worksheet.sc:35:22: 
+value _1contains is not a member of String - did you mean _$3.contains?
+brackets.keys.forall(_._1contains("}"))
+                     ^^^^^^^^^^^^
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:125 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:43:28 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.28s
+2023.06.18 14:43:31 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[31merror[39m: 020_Valid_Parentheses.worksheet.sc:35:22: 
+value _1 is not a member of String
+brackets.keys.forall(_._1.contains("}"))
+                     ^^^^
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:125 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:43:31 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.2s
+2023.06.18 14:43:38 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:125 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:43:38 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.38s
+2023.06.18 14:45:13 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[31merror[39m: 020_Valid_Parentheses.worksheet.sc:35:1: 
+value contains is not a member of Iterable[String]
+brackets.keys.contains("}")
+^^^^^^^^^^^^^^^^^^^^^^
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:125 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:45:13 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.26s
+Jun 18, 2023 2:45:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8770
+2023.06.18 14:45:18 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:125 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:45:19 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.39s
+2023.06.18 14:45:26 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:125 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+// practice
+^
+2023.06.18 14:45:26 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:125 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+// practice
+^
+2023.06.18 14:45:26 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:125 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+// practice
+^
+2023.06.18 14:45:26 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:125 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+// practice
+^
+2023.06.18 14:45:28 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[31merror[39m: 020_Valid_Parentheses.worksheet.sc:35:19: 
+Found:    (MdocApp.this.c : Char)
+Required: String
+brackets.contains(c)
+                  ^
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:125 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:45:28 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.22s
+2023.06.18 14:45:38 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:125 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:45:39 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.37s
+Jun 18, 2023 2:45:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8882
+2023.06.18 14:46:30 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[31merror[39m: 020_Valid_Parentheses.worksheet.sc:48:22: 
+Not found: _1
+brackets.keys.forall(_1)
+                     ^^
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:130 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:46:30 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.24s
+2023.06.18 14:46:43 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[31merror[39m: 020_Valid_Parentheses.worksheet.sc:48:22: 
+Found:    Unit
+Required: Boolean
+brackets.keys.forall(print(_))
+                     ^^^^^^^^
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:130 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:46:43 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.25s
+2023.06.18 14:46:46 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[31merror[39m: 020_Valid_Parentheses.worksheet.sc:48:28: 
+Not found: _1
+brackets.keys.forall(print(_1))
+                           ^^
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:130 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:46:46 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.2s
+2023.06.18 14:47:25 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:125 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:47:25 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.33s
+2023.06.18 14:47:35 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:125 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:47:35 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.32s
+2023.06.18 14:47:39 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:125 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:47:39 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.39s
+2023.06.18 14:51:28 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:126 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:51:29 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.38s
+Jun 18, 2023 2:52:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9333
+2023.06.18 14:52:26 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:126 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:52:26 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.51s
+2023.06.18 14:52:38 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:126 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:52:38 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.36s
+2023.06.18 14:52:47 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:126 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:52:48 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.4s
+2023.06.18 14:53:04 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[31merror[39m: 020_Valid_Parentheses.worksheet.sc:87:13: 
+Double definition:
+var temp: Array[String] in class MdocApp at line 24 and
+var temp: Array[String] in class MdocApp at line 141
+
+        var temp : Array[String] = Array()
+            ^
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:126 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:53:04 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.26s
+2023.06.18 14:53:12 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:126 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:53:12 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.39s
+2023.06.18 14:53:21 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:126 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:53:21 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.39s
+2023.06.18 14:54:01 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(if temp.isEmpty then true else false)
+
+
+2023.06.18 14:54:01 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.4s
+2023.06.18 14:54:13 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+2023.06.18 14:54:14 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.39s
+2023.06.18 14:55:53 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+2023.06.18 14:55:53 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.41s
+2023.06.18 17:55:23 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+2023.06.18 17:55:24 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.55s
+2023.06.18 19:04:38 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+2023.06.18 19:04:39 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 1.1s
+2023.06.18 19:04:52 INFO  Shutting down server
+2023.06.18 19:04:52 INFO  shutting down Metals
+2023.06.18 19:04:52 INFO  Exiting server

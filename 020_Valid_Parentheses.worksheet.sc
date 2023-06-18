@@ -2,9 +2,9 @@
 val s: String = "(]"
 
 val brackets = Map(
-        "]"  -> "[",
-        ")" -> "(",
-        "}"  -> "{"
+        "["  -> "]",
+        "(" -> ")",
+        "{"  -> "}"
     )
 
 brackets.keys.forall(_.contains(']'))
@@ -24,7 +24,7 @@ for (c <- s){
 
 if temp.isEmpty then true else false
 
-val c = '}'
+val c = '{'
 
 var temp1 : Array[String] = Array()
 
@@ -91,3 +91,31 @@ var temp2 : Array[String] = Array()
 temp2.isEmpty
 
 Solution.isValid(s1)
+
+
+object Solution2{
+    private val brackets = Map(
+        "["  -> "]",
+        "(" -> ")",
+        "{"  -> "}"
+    )
+
+        def isValid(s: String): Boolean = {
+            
+            var temp: Array[String] = Array()
+            
+            for(c <- s){
+                if(brackets.contains(c.toString)){
+                    temp = temp :+ c.toString
+                }else{
+                    if(temp.last.equals(c)) 
+                    return(false) 
+                }
+            }
+            
+            return(temp.nonEmpty)
+        
+        }
+}
+
+Solution2.isValid(s)

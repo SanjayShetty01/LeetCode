@@ -3738,3 +3738,796 @@ var temp: Array[String] in class MdocApp at line 141
 2023.06.18 19:04:52 INFO  Shutting down server
 2023.06.18 19:04:52 INFO  shutting down Metals
 2023.06.18 19:04:52 INFO  Exiting server
+2023.06.18 22:16:57 INFO  Started: Metals version 0.11.12 in workspace 'D:\Github\LeetCode' for client Visual Studio Code 1.79.2.
+Jun 18, 2023 10:16:57 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 18, 2023 10:16:57 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 18, 2023 10:16:57 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 18, 2023 10:16:57 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Github\LeetCode\.metals\metals (H2 2.1)
+Jun 18, 2023 10:16:57 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.027s)
+Jun 18, 2023 10:16:57 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jun 18, 2023 10:16:57 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.18 22:16:58 INFO  time: initialize in 0.67s
+2023.06.18 22:17:00 WARN  Build server is not auto-connectable.
+2023.06.18 22:17:00 WARN  no build tool detected in workspace 'D:\Github\LeetCode'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.18 22:17:00 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+2023.06.18 22:17:07 INFO  no build target found for D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+2023.06.18 22:17:12 INFO  time: code lens generation in 11s
+2023.06.18 22:17:12 INFO  time: code lens generation in 11s
+2023.06.18 22:17:13 INFO  no build target found for D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.18 22:17:13 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 13s
+2023.06.18 22:18:06 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+2023.06.18 22:18:07 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 1.62s
+2023.06.18 22:18:17 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+// practice
+^
+2023.06.18 22:18:17 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:37:1: stale mdoc error: java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:627)
+	at scala.None$.get(Option.scala:626)
+	at repl.MdocSession$MdocApp.<init>(020_Valid_Parentheses.worksheet.sc:71)
+	at repl.MdocSession$.app(020_Valid_Parentheses.worksheet.sc:3)
+
+temp1.nonEmpty && temp1.last.equals(brackets.get(c.toString).get)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.06.18 22:18:17 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+// practice
+^
+2023.06.18 22:18:17 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:37:1: stale mdoc error: java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:627)
+	at scala.None$.get(Option.scala:626)
+	at repl.MdocSession$MdocApp.<init>(020_Valid_Parentheses.worksheet.sc:71)
+	at repl.MdocSession$.app(020_Valid_Parentheses.worksheet.sc:3)
+
+temp1.nonEmpty && temp1.last.equals(brackets.get(c.toString).get)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.06.18 22:18:17 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+// practice
+^
+2023.06.18 22:18:17 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:37:1: stale mdoc error: java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:627)
+	at scala.None$.get(Option.scala:626)
+	at repl.MdocSession$MdocApp.<init>(020_Valid_Parentheses.worksheet.sc:71)
+	at repl.MdocSession$.app(020_Valid_Parentheses.worksheet.sc:3)
+
+temp1.nonEmpty && temp1.last.equals(brackets.get(c.toString).get)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.06.18 22:18:18 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+// practice
+^
+2023.06.18 22:18:18 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:37:1: stale mdoc error: java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:627)
+	at scala.None$.get(Option.scala:626)
+	at repl.MdocSession$MdocApp.<init>(020_Valid_Parentheses.worksheet.sc:71)
+	at repl.MdocSession$.app(020_Valid_Parentheses.worksheet.sc:3)
+
+temp1.nonEmpty && temp1.last.equals(brackets.get(c.toString).get)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.06.18 22:18:17 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+// practice
+^
+2023.06.18 22:18:17 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:37:1: stale mdoc error: java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:627)
+	at scala.None$.get(Option.scala:626)
+	at repl.MdocSession$MdocApp.<init>(020_Valid_Parentheses.worksheet.sc:71)
+	at repl.MdocSession$.app(020_Valid_Parentheses.worksheet.sc:3)
+
+temp1.nonEmpty && temp1.last.equals(brackets.get(c.toString).get)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.06.18 22:18:17 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+// practice
+^
+2023.06.18 22:18:17 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:37:1: stale mdoc error: java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:627)
+	at scala.None$.get(Option.scala:626)
+	at repl.MdocSession$MdocApp.<init>(020_Valid_Parentheses.worksheet.sc:71)
+	at repl.MdocSession$.app(020_Valid_Parentheses.worksheet.sc:3)
+
+temp1.nonEmpty && temp1.last.equals(brackets.get(c.toString).get)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.06.18 22:18:20 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+// practice
+^
+2023.06.18 22:18:20 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:37:1: stale mdoc error: java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:627)
+	at scala.None$.get(Option.scala:626)
+	at repl.MdocSession$MdocApp.<init>(020_Valid_Parentheses.worksheet.sc:71)
+	at repl.MdocSession$.app(020_Valid_Parentheses.worksheet.sc:3)
+
+temp1.nonEmpty && temp1.last.equals(brackets.get(c.toString).get)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.06.18 22:18:20 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+// practice
+^
+2023.06.18 22:18:20 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:37:1: stale mdoc error: java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:627)
+	at scala.None$.get(Option.scala:626)
+	at repl.MdocSession$MdocApp.<init>(020_Valid_Parentheses.worksheet.sc:71)
+	at repl.MdocSession$.app(020_Valid_Parentheses.worksheet.sc:3)
+
+temp1.nonEmpty && temp1.last.equals(brackets.get(c.toString).get)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.06.18 22:18:21 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+// practice
+^
+2023.06.18 22:18:21 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:37:1: stale mdoc error: java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:627)
+	at scala.None$.get(Option.scala:626)
+	at repl.MdocSession$MdocApp.<init>(020_Valid_Parentheses.worksheet.sc:71)
+	at repl.MdocSession$.app(020_Valid_Parentheses.worksheet.sc:3)
+
+temp1.nonEmpty && temp1.last.equals(brackets.get(c.toString).get)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.06.18 22:18:21 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+// practice
+^
+2023.06.18 22:18:21 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:37:1: stale mdoc error: java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:627)
+	at scala.None$.get(Option.scala:626)
+	at repl.MdocSession$MdocApp.<init>(020_Valid_Parentheses.worksheet.sc:71)
+	at repl.MdocSession$.app(020_Valid_Parentheses.worksheet.sc:3)
+
+temp1.nonEmpty && temp1.last.equals(brackets.get(c.toString).get)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.06.18 22:18:21 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+// practice
+^
+2023.06.18 22:18:21 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:37:1: stale mdoc error: java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:627)
+	at scala.None$.get(Option.scala:626)
+	at repl.MdocSession$MdocApp.<init>(020_Valid_Parentheses.worksheet.sc:71)
+	at repl.MdocSession$.app(020_Valid_Parentheses.worksheet.sc:3)
+
+temp1.nonEmpty && temp1.last.equals(brackets.get(c.toString).get)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.06.18 22:18:22 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:1:1: stale mdoc warning:
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+// practice
+^
+2023.06.18 22:18:22 INFO  file:///D:/Github/LeetCode/020_Valid_Parentheses.worksheet.sc:37:1: stale mdoc error: java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:627)
+	at scala.None$.get(Option.scala:626)
+	at repl.MdocSession$MdocApp.<init>(020_Valid_Parentheses.worksheet.sc:71)
+	at repl.MdocSession$.app(020_Valid_Parentheses.worksheet.sc:3)
+
+temp1.nonEmpty && temp1.last.equals(brackets.get(c.toString).get)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.06.18 22:18:23 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+2023.06.18 22:18:25 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 1.32s
+2023.06.18 22:19:45 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+2023.06.18 22:19:46 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.96s
+2023.06.18 22:21:46 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+2023.06.18 22:21:47 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 1.12s
+Jun 18, 2023 10:22:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 306
+Jun 18, 2023 10:22:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 369
+Jun 18, 2023 10:23:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.MetalsInteractive$.enclosingSymbolsWithExpressionType(MetalsInteractive.scala:261)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:98)
+
+2023.06.18 22:23:39 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+2023.06.18 22:23:40 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.96s
+Jun 18, 2023 10:23:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 612
+Jun 18, 2023 10:25:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 773
+2023.06.18 22:50:53 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[31merror[39m: 020_Valid_Parentheses.worksheet.sc:111:24: 
+value !== is not a member of String - did you mean String.!=?
+                    if(temp.last !== c) 
+                       ^^^^^^^^^^^^^
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+2023.06.18 22:50:54 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.6s
+2023.06.18 22:51:17 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:112:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return false 
+                    ^^^^^^^^^^^^
+2023.06.18 22:51:18 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.93s
+2023.06.18 22:51:26 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:112:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return(false) 
+                    ^^^^^^^^^^^^^
+2023.06.18 22:51:27 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.88s
+2023.06.18 22:51:45 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:112:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return(false) 
+                    ^^^^^^^^^^^^^
+2023.06.18 22:51:46 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.87s
+2023.06.18 22:51:49 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:112:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return(false) 
+                    ^^^^^^^^^^^^^
+2023.06.18 22:51:49 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.87s
+2023.06.18 22:51:58 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:112:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return(false) 
+                    ^^^^^^^^^^^^^
+2023.06.18 22:51:59 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.9s
+2023.06.18 22:53:34 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[31merror[39m: 020_Valid_Parentheses.worksheet.sc:116:20: 
+value Empty is not a member of Array[String] - did you mean Array[String].apply?
+            return(temp.Empty)
+                   ^^^^^^^^^^
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+2023.06.18 22:53:34 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.46s
+2023.06.18 22:53:40 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:112:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return(false) 
+                    ^^^^^^^^^^^^^
+2023.06.18 22:53:40 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.72s
+2023.06.18 22:53:45 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:112:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return(false) 
+                    ^^^^^^^^^^^^^
+2023.06.18 22:53:46 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.76s
+2023.06.18 22:55:36 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:112:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return(false) 
+                    ^^^^^^^^^^^^^
+2023.06.18 22:55:36 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.75s
+Jun 19, 2023 9:28:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1967
+2023.06.19 09:28:27 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[31merror[39m: 020_Valid_Parentheses.worksheet.sc:118:20: 
+Found:    Unit
+Required: Boolean
+            return temp = Array()
+                   ^^^^^^^^^^^^^^
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+2023.06.19 09:28:28 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.48s
+2023.06.19 09:28:54 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:114:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return(false) 
+                    ^^^^^^^^^^^^^
+2023.06.19 09:28:55 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.71s
+2023.06.19 09:29:03 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:114:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return(false) 
+                    ^^^^^^^^^^^^^
+2023.06.19 09:29:04 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.71s
+2023.06.19 09:30:09 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:114:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return(false) 
+                    ^^^^^^^^^^^^^
+2023.06.19 09:30:09 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.74s
+2023.06.19 09:30:20 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:114:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return(false) 
+                    ^^^^^^^^^^^^^
+2023.06.19 09:30:21 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.66s
+2023.06.19 09:30:47 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:114:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return(false) 
+                    ^^^^^^^^^^^^^
+2023.06.19 09:30:48 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.63s
+2023.06.19 09:30:51 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:114:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return(false) 
+                    ^^^^^^^^^^^^^
+2023.06.19 09:30:52 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.71s
+2023.06.19 09:31:03 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:114:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return(false) 
+                    ^^^^^^^^^^^^^
+2023.06.19 09:31:04 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.61s
+2023.06.19 09:31:09 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:114:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return(false) 
+                    ^^^^^^^^^^^^^
+2023.06.19 09:31:10 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.66s
+2023.06.19 09:33:20 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:114:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return(false) 
+                    ^^^^^^^^^^^^^
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:142:9: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+        return false
+        ^^^^^^^^^^^^
+2023.06.19 09:33:21 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 1s
+2023.06.19 09:33:31 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:114:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return(false) 
+                    ^^^^^^^^^^^^^
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:142:9: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+        return false
+        ^^^^^^^^^^^^
+2023.06.19 09:33:31 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.84s
+2023.06.19 09:36:04 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:114:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return(false) 
+                    ^^^^^^^^^^^^^
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:149:9: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+        return false
+        ^^^^^^^^^^^^
+2023.06.19 09:36:05 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.81s
+2023.06.19 09:39:15 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[31merror[39m: 020_Valid_Parentheses.worksheet.sc:158:19: 
+Not found: s2
+Solution3.isValid(s2)
+                  ^^
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:215 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+            stack.isEmpty
+
+
+2023.06.19 09:39:15 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.62s
+2023.06.19 09:39:28 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:215 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+            stack.isEmpty
+
+
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:114:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return(false) 
+                    ^^^^^^^^^^^^^
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:145:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return false
+                    ^^^^^^^^^^^^
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:171:9: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+        return false
+        ^^^^^^^^^^^^
+2023.06.19 09:39:29 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.92s
+2023.06.19 09:39:32 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:215 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+            stack.isEmpty
+
+
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:114:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return(false) 
+                    ^^^^^^^^^^^^^
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:145:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return false
+                    ^^^^^^^^^^^^
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:171:9: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+        return false
+        ^^^^^^^^^^^^
+2023.06.19 09:39:33 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.95s
+2023.06.19 09:41:29 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[31merror[39m: 020_Valid_Parentheses.worksheet.sc:159:5: 
+Double definition:
+val s3: String in class MdocApp at line 185 and
+val s3: String in class MdocApp at line 224
+
+val s3: String = "{[]}"
+    ^
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:215 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+            stack.isEmpty
+
+
+2023.06.19 09:41:29 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.65s
+2023.06.19 09:41:51 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[31merror[39m: 020_Valid_Parentheses.worksheet.sc:159:5: 
+Double definition:
+val s3: String in class MdocApp at line 185 and
+val s3: String in class MdocApp at line 224
+
+val s3: String = "{[]}"
+    ^
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:215 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+            stack.isEmpty
+
+
+2023.06.19 09:41:52 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.61s
+2023.06.19 09:42:09 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[31merror[39m: 020_Valid_Parentheses.worksheet.sc:159:5: 
+Double definition:
+val s3: String in class MdocApp at line 185 and
+val s3: String in class MdocApp at line 224
+
+val s3: String = "{[]}"
+    ^
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:215 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+            stack.isEmpty
+
+
+2023.06.19 09:42:10 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.6s
+2023.06.19 09:42:25 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:211 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+            stack.isEmpty
+
+
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:114:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return(false) 
+                    ^^^^^^^^^^^^^
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:144:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return false
+                    ^^^^^^^^^^^^
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:173:9: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+        return false
+        ^^^^^^^^^^^^
+2023.06.19 09:42:25 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.78s
+2023.06.19 09:42:45 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:211 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+            stack.isEmpty
+
+
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:114:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return(false) 
+                    ^^^^^^^^^^^^^
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:144:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return false
+                    ^^^^^^^^^^^^
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:173:9: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+        return false
+        ^^^^^^^^^^^^
+2023.06.19 09:42:46 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.89s
+2023.06.19 09:42:58 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:211 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+            stack.isEmpty
+
+
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:114:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return(false) 
+                    ^^^^^^^^^^^^^
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:144:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return false
+                    ^^^^^^^^^^^^
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:173:9: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+        return false
+        ^^^^^^^^^^^^
+2023.06.19 09:42:59 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.82s
+2023.06.19 09:43:28 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:211 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+            stack.isEmpty
+
+
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:114:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return(false) 
+                    ^^^^^^^^^^^^^
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:144:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return false
+                    ^^^^^^^^^^^^
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:173:9: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+        return false
+        ^^^^^^^^^^^^
+2023.06.19 09:43:29 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 0.83s

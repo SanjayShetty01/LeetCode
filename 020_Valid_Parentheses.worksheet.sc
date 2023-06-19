@@ -82,7 +82,7 @@ object Solution {
     }
 } 
 
-val s1: String = "([}}])"
+val s1: String = "{[]}"
 
 s1.length % 2 == 0
 
@@ -95,9 +95,9 @@ Solution.isValid(s1)
 
 object Solution2{
     private val brackets = Map(
-        "["  -> "]",
-        "(" -> ")",
-        "{"  -> "}"
+        "]"  -> "[",
+        ")" -> "(",
+        "}"  -> "{"
     )
 
         def isValid(s: String): Boolean = {
@@ -107,15 +107,85 @@ object Solution2{
             for(c <- s){
                 if(brackets.contains(c.toString)){
                     temp = temp :+ c.toString
-                }else{
-                    if(temp.last.equals(c)) 
+                }else if(temp.nonEmpty && temp.last.equals(brackets.get(c.toString).get)){
+                    temp = temp.init
+                }
+                else{
                     return(false) 
                 }
             }
             
-            return(temp.nonEmpty)
+            return(temp.isEmpty)
         
         }
 }
 
-Solution2.isValid(s)
+
+
+Solution2.isValid(s1)
+
+
+import scala.collection.mutable.Stack
+
+
+object Solution3{
+    private val stack = Stack[Char]()
+    private val openingParentheses = Set('(', '[', '{')
+    private val closingParentheses = Set(')', ']', '}')
+    private   val matchingPairs = Map( ']' -> '[' ,')' -> '(',  '}' -> '{')
+
+    def isValid(s: String): Boolean = {
+          for (c <- s) {
+            if (openingParentheses.contains(c)) {
+                  stack.push(c)
+                } 
+            else if (closingParentheses.contains(c)) {
+                if (stack.isEmpty || stack.pop() != matchingPairs(c)) {
+                    return false
+                  }
+                }
+            }
+
+        stack.isEmpty
+
+
+     }
+
+ 
+}
+
+
+val s3: String = "{[]}"
+
+Solution3.isValid(s3)
+
+def isValidParentheses(s: String): Boolean = {
+  val stack = Stack[Char]()
+  val openingParentheses = Set('(', '[', '{')
+  val closingParentheses = Set(')', ']', '}')
+  val matchingPairs = Map( ']' -> '[' ,')' -> '(',  '}' -> '{')
+
+  for (c <- s) {
+    if (openingParentheses.contains(c)) {
+      stack.push(c)
+    } else if (closingParentheses.contains(c)) {
+      if (stack.isEmpty || stack.pop() != matchingPairs(c)) {
+        return false
+      }
+    }
+  }
+
+  stack.isEmpty
+}
+
+val input1 = "([]"
+val input2 = "()[]{}"
+val input3 = "(]"
+val input4 = "([)]"
+val input5 = "{[]}"
+
+println(isValidParentheses(input1)) // Output: true
+println(isValidParentheses(input2)) // Output: true
+println(isValidParentheses(input3)) // Output: false
+println(isValidParentheses(input4)) // Output: false
+println(isValidParentheses(input5)) // Output: true

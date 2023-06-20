@@ -4620,3 +4620,169 @@ Required: Int
 2023.06.20 07:52:08 INFO  Shutting down server
 2023.06.20 07:52:08 INFO  shutting down Metals
 2023.06.20 07:52:08 INFO  Exiting server
+2023.06.20 19:31:54 INFO  Started: Metals version 0.11.12 in workspace 'D:\Github\LeetCode' for client Visual Studio Code 1.79.2.
+Jun 20, 2023 7:31:54 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 20, 2023 7:31:54 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 20, 2023 7:31:54 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 20, 2023 7:31:55 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Github\LeetCode\.metals\metals (H2 2.1)
+Jun 20, 2023 7:31:55 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.049s)
+Jun 20, 2023 7:31:55 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jun 20, 2023 7:31:55 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.20 19:31:55 INFO  time: initialize in 1.23s
+2023.06.20 19:31:57 WARN  Build server is not auto-connectable.
+2023.06.20 19:31:57 WARN  no build tool detected in workspace 'D:\Github\LeetCode'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.20 19:31:58 WARN  no build target for: D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc
+[31merror[39m: 026_Remove_Duplicates_from_Sorted_Array.worksheet.sc:2:51: 
+Found:    Unit
+Required: Int
+    def removeDuplicates(nums: Array[Int]): Int = {
+                                                  ^
+2023.06.20 19:32:06 INFO  no build target found for D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.20 19:32:06 INFO  no build target found for D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.20 19:32:06 INFO  time: evaluated worksheet '026_Remove_Duplicates_from_Sorted_Array.worksheet.sc' in 8.9s
+2023.06.20 19:32:09 INFO  time: code lens generation in 11s
+2023.06.20 19:36:41 WARN  no build target for: D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc
+2023.06.20 19:36:42 INFO  time: evaluated worksheet '026_Remove_Duplicates_from_Sorted_Array.worksheet.sc' in 1.09s
+Jun 20, 2023 8:34:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 309
+2023.06.20 20:41:53 WARN  no build target for: D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc
+[31merror[39m: 026_Remove_Duplicates_from_Sorted_Array.worksheet.sc:5:23: 
+Not found: until
+        for(i <- 1 to until(nums.length)){
+                      ^^^^^
+[31merror[39m: 026_Remove_Duplicates_from_Sorted_Array.worksheet.sc:11:16: 
+Found:    (nums : Array[Int])
+Required: Int
+        return(nums)
+               ^^^^
+2023.06.20 20:41:54 INFO  time: evaluated worksheet '026_Remove_Duplicates_from_Sorted_Array.worksheet.sc' in 0.48s
+2023.06.20 20:42:09 WARN  no build target for: D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc
+[31merror[39m: 026_Remove_Duplicates_from_Sorted_Array.worksheet.sc:5:23: 
+Not found: until
+        for(i <- 1 to until(nums.length)){
+                      ^^^^^
+2023.06.20 20:42:09 INFO  time: evaluated worksheet '026_Remove_Duplicates_from_Sorted_Array.worksheet.sc' in 0.2s
+2023.06.20 20:42:17 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:55 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(commonPrefix)
+
+
+2023.06.20 20:42:20 INFO  no build target found for D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.20 20:42:20 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 3.08s
+2023.06.20 20:42:26 WARN  no build target for: D:\Github\LeetCode\001_roman_to_integer.worksheet.sc
+[33mwarning[39m: 
+001_roman_to_integer.worksheet.sc:58 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        val VALUE_MAP= Map(
+
+
+2023.06.20 20:42:29 INFO  no build target found for D:\Github\LeetCode\001_roman_to_integer.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.20 20:42:29 INFO  time: evaluated worksheet '001_roman_to_integer.worksheet.sc' in 3.08s
+2023.06.20 20:43:23 WARN  no build target for: D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc
+2023.06.20 20:43:23 INFO  time: evaluated worksheet '026_Remove_Duplicates_from_Sorted_Array.worksheet.sc' in 0.4s
+2023.06.20 20:43:56 WARN  no build target for: D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc
+[31merror[39m: 026_Remove_Duplicates_from_Sorted_Array.worksheet.sc:16:1: 
+Not found: nums
+nums = List(1,1,2)
+^^^^
+2023.06.20 20:43:56 INFO  time: evaluated worksheet '026_Remove_Duplicates_from_Sorted_Array.worksheet.sc' in 0.26s
+2023.06.20 20:44:03 WARN  no build target for: D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc
+2023.06.20 20:44:03 INFO  time: evaluated worksheet '026_Remove_Duplicates_from_Sorted_Array.worksheet.sc' in 0.48s
+2023.06.20 20:44:16 WARN  no build target for: D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc
+[31merror[39m: 026_Remove_Duplicates_from_Sorted_Array.worksheet.sc:18:27: 
+Found:    (MdocApp.this.nums : List[Int])
+Required: Array[Int]
+Solution.removeDuplicates(nums)
+                          ^^^^
+2023.06.20 20:44:16 INFO  time: evaluated worksheet '026_Remove_Duplicates_from_Sorted_Array.worksheet.sc' in 0.26s
+2023.06.20 20:44:24 WARN  no build target for: D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc
+2023.06.20 20:44:24 INFO  time: evaluated worksheet '026_Remove_Duplicates_from_Sorted_Array.worksheet.sc' in 0.43s
+2023.06.20 20:44:54 WARN  no build target for: D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc
+2023.06.20 20:44:54 INFO  time: evaluated worksheet '026_Remove_Duplicates_from_Sorted_Array.worksheet.sc' in 0.36s
+2023.06.20 20:45:23 WARN  no build target for: D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc
+2023.06.20 20:45:23 INFO  time: evaluated worksheet '026_Remove_Duplicates_from_Sorted_Array.worksheet.sc' in 0.42s
+Jun 20, 2023 8:47:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1226
+2023.06.20 20:52:17 WARN  no build target for: D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc
+[31merror[39m: 026_Remove_Duplicates_from_Sorted_Array.worksheet.sc:11:13: 
+Reassignment to val nums
+            nums = nums.take(rd)
+            ^^^^^^^^^^^^^^^^^^^^
+2023.06.20 20:52:17 INFO  time: evaluated worksheet '026_Remove_Duplicates_from_Sorted_Array.worksheet.sc' in 0.21s
+2023.06.20 20:52:36 WARN  no build target for: D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc
+[31merror[39m: 026_Remove_Duplicates_from_Sorted_Array.worksheet.sc:11:24: 
+Recursive value nums needs type
+            val nums = nums.take(rd)
+                       ^
+2023.06.20 20:52:36 INFO  time: evaluated worksheet '026_Remove_Duplicates_from_Sorted_Array.worksheet.sc' in 0.17s
+2023.06.20 20:52:54 WARN  no build target for: D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc
+[31merror[39m: 026_Remove_Duplicates_from_Sorted_Array.worksheet.sc:11:14: 
+Reassignment to val nums
+             nums = nums.take(rd)
+             ^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: 026_Remove_Duplicates_from_Sorted_Array.worksheet.sc:14:16: 
+Found:    Int
+Required: Array[Int]
+        return(nums.length)
+               ^^^^^^^^^^^
+2023.06.20 20:52:54 INFO  time: evaluated worksheet '026_Remove_Duplicates_from_Sorted_Array.worksheet.sc' in 0.15s
+2023.06.20 20:53:05 WARN  no build target for: D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc
+[31merror[39m: 026_Remove_Duplicates_from_Sorted_Array.worksheet.sc:11:14: 
+Reassignment to val nums
+             nums = nums.take(rd)
+             ^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: 026_Remove_Duplicates_from_Sorted_Array.worksheet.sc:21:1: 
+value mkString is not a member of Int - did you mean Int.toString?
+Solution.removeDuplicates(nums).mkString
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.06.20 20:53:05 INFO  time: evaluated worksheet '026_Remove_Duplicates_from_Sorted_Array.worksheet.sc' in 0.21s
+2023.06.20 20:53:19 WARN  no build target for: D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc
+[31merror[39m: 026_Remove_Duplicates_from_Sorted_Array.worksheet.sc:11:14: 
+Reassignment to val nums
+             nums = nums.take(rd)
+             ^^^^^^^^^^^^^^^^^^^^
+2023.06.20 20:53:19 INFO  time: evaluated worksheet '026_Remove_Duplicates_from_Sorted_Array.worksheet.sc' in 0.2s
+Jun 20, 2023 8:54:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1512
+2023.06.20 20:54:24 WARN  no build target for: D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc
+[31merror[39m: 026_Remove_Duplicates_from_Sorted_Array.worksheet.sc:2:26: identifier expected but var found
+    def removeDuplicates(var nums: Array[Int]): Int = {
+                         ^^^
+2023.06.20 20:54:24 INFO  time: evaluated worksheet '026_Remove_Duplicates_from_Sorted_Array.worksheet.sc' in 0.21s
+2023.06.20 20:54:32 WARN  no build target for: D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc
+[31merror[39m: 026_Remove_Duplicates_from_Sorted_Array.worksheet.sc:11:14: 
+Reassignment to val nums
+             nums = nums.take(rd)
+             ^^^^^^^^^^^^^^^^^^^^
+2023.06.20 20:54:32 INFO  time: evaluated worksheet '026_Remove_Duplicates_from_Sorted_Array.worksheet.sc' in 0.12s
+2023.06.20 20:54:56 WARN  no build target for: D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc
+[31merror[39m: 026_Remove_Duplicates_from_Sorted_Array.worksheet.sc:11:14: 
+Not found: nums1
+             nums1 = nums.take(rd)
+             ^^^^^
+2023.06.20 20:54:56 INFO  time: evaluated worksheet '026_Remove_Duplicates_from_Sorted_Array.worksheet.sc' in 0.22s
+2023.06.20 20:55:11 WARN  no build target for: D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc
+2023.06.20 20:55:11 INFO  time: evaluated worksheet '026_Remove_Duplicates_from_Sorted_Array.worksheet.sc' in 0.5s
+Jun 20, 2023 8:55:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1598
+2023.06.20 20:55:30 WARN  no build target for: D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc
+[31merror[39m: 026_Remove_Duplicates_from_Sorted_Array.worksheet.sc:23:24: 
+Not found: rd
+             nums.take(rd)
+                       ^^
+2023.06.20 20:55:31 INFO  time: evaluated worksheet '026_Remove_Duplicates_from_Sorted_Array.worksheet.sc' in 0.2s
+2023.06.20 20:55:44 WARN  no build target for: D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc
+2023.06.20 20:55:44 INFO  time: evaluated worksheet '026_Remove_Duplicates_from_Sorted_Array.worksheet.sc' in 0.35s
+2023.06.20 20:55:50 WARN  no build target for: D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc
+2023.06.20 20:55:51 INFO  time: evaluated worksheet '026_Remove_Duplicates_from_Sorted_Array.worksheet.sc' in 0.38s
+2023.06.20 20:59:40 WARN  no build target for: D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc
+2023.06.20 20:59:40 INFO  time: evaluated worksheet '026_Remove_Duplicates_from_Sorted_Array.worksheet.sc' in 0.3s

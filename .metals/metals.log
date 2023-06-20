@@ -4946,3 +4946,35 @@ Non local returns are no longer supported; use scala.util.control.NonLocalReturn
 Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
             return Array(hashMap(complement), i)
             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.06.20 21:05:26 INFO  no build target found for D:\Github\LeetCode\001_two_sums.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.20 21:05:26 INFO  time: evaluated worksheet '001_two_sums.worksheet.sc' in 1.73s
+2023.06.20 21:07:52 WARN  no build target for: D:\Github\LeetCode\001_two_sums.worksheet.sc
+[33mwarning[39m: 
+001_two_sums.worksheet.sc:10 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+            for {i <- indices; j <- indices} {
+
+
+[33mwarning[39m: 
+001_two_sums.worksheet.sc:14 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+            Array()
+
+
+[33mwarning[39m: 001_two_sums.worksheet.sc:7:56: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+            if (i != j && nums(i) + nums(j) == target) return Array(i, j)
+                                                       ^^^^^^^^^^^^^^^^^^
+[33mwarning[39m: 001_two_sums.worksheet.sc:24:13: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+            return Array(hashMap(complement), i)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.06.20 21:07:52 INFO  time: evaluated worksheet '001_two_sums.worksheet.sc' in 0.26s
+2023.06.20 21:07:56 WARN  no build target for: D:\Github\LeetCode\27_Remove_Element.worksheet.sc
+2023.06.20 21:07:58 INFO  no build target found for D:\Github\LeetCode\27_Remove_Element.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.20 21:07:58 INFO  time: evaluated worksheet '27_Remove_Element.worksheet.sc' in 1.6s
+2023.06.20 21:08:14 WARN  no build target for: D:\Github\LeetCode\27_Remove_Element.worksheet.sc
+2023.06.20 21:08:14 INFO  time: evaluated worksheet '27_Remove_Element.worksheet.sc' in 0.15s
+2023.06.20 21:08:54 WARN  no build target for: D:\Github\LeetCode\027_Remove_Element.worksheet.sc
+2023.06.20 21:08:56 INFO  no build target found for D:\Github\LeetCode\027_Remove_Element.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.20 21:08:56 INFO  time: evaluated worksheet '027_Remove_Element.worksheet.sc' in 1.76s

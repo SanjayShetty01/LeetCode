@@ -4981,3 +4981,79 @@ Non local returns are no longer supported; use scala.util.control.NonLocalReturn
 2023.06.20 21:09:21 INFO  Shutting down server
 2023.06.20 21:09:21 INFO  shutting down Metals
 2023.06.20 21:09:21 INFO  Exiting server
+2023.06.21 08:04:12 INFO  Started: Metals version 0.11.12 in workspace 'D:\Github\LeetCode' for client Visual Studio Code 1.79.2.
+Jun 21, 2023 8:04:12 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 21, 2023 8:04:12 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 21, 2023 8:04:12 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 21, 2023 8:04:13 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Github\LeetCode\.metals\metals (H2 2.1)
+Jun 21, 2023 8:04:13 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.066s)
+Jun 21, 2023 8:04:13 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jun 21, 2023 8:04:13 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.21 08:04:13 INFO  time: initialize in 1.02s
+2023.06.21 08:04:15 WARN  Build server is not auto-connectable.
+2023.06.21 08:04:15 WARN  no build tool detected in workspace 'D:\Github\LeetCode'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.21 08:04:15 WARN  no build target for: D:\Github\LeetCode\027_Remove_Element.worksheet.sc
+Jun 21, 2023 8:04:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+[31merror[39m: 027_Remove_Element.worksheet.sc:6:5: <- expected but } found
+    }
+    ^
+2023.06.21 08:04:30 INFO  no build target found for D:\Github\LeetCode\027_Remove_Element.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+Jun 21, 2023 8:04:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+Jun 21, 2023 8:04:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Jun 21, 2023 8:04:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+Jun 21, 2023 8:04:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25
+Jun 21, 2023 8:04:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+Jun 21, 2023 8:04:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Jun 21, 2023 8:04:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 35
+Jun 21, 2023 8:04:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+Jun 21, 2023 8:04:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 41
+Jun 21, 2023 8:04:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 46
+Jun 21, 2023 8:04:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49
+Jun 21, 2023 8:04:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 39
+Jun 21, 2023 8:04:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 42
+Jun 21, 2023 8:04:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 71
+Jun 21, 2023 8:04:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 83
+2023.06.21 08:04:37 INFO  time: code lens generation in 22s
+2023.06.21 08:04:37 INFO  time: code lens generation in 3.31s
+2023.06.21 08:04:37 INFO  time: code lens generation in 1.63s
+2023.06.21 08:04:37 INFO  time: code lens generation in 2.83s
+2023.06.21 08:04:37 INFO  time: code lens generation in 2.97s
+2023.06.21 08:04:37 INFO  time: code lens generation in 4.14s
+2023.06.21 08:04:37 INFO  time: code lens generation in 3.52s
+2023.06.21 08:04:37 INFO  time: code lens generation in 3.88s
+2023.06.21 08:04:37 INFO  time: code lens generation in 21s
+2023.06.21 08:04:38 INFO  time: code lens generation in 5.4s
+2023.06.21 08:04:38 INFO  time: code lens generation in 3.37s
+2023.06.21 08:04:38 INFO  time: code lens generation in 5.65s
+2023.06.21 08:04:39 INFO  no build target found for D:\Github\LeetCode\027_Remove_Element.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.21 08:04:39 INFO  time: evaluated worksheet '027_Remove_Element.worksheet.sc' in 23s
+2023.06.21 08:06:33 WARN  no build target for: D:\Github\LeetCode\027_Remove_Element.worksheet.sc
+2023.06.21 08:06:35 INFO  time: evaluated worksheet '027_Remove_Element.worksheet.sc' in 1.34s
+2023.06.21 08:07:48 WARN  no build target for: D:\Github\LeetCode\027_Remove_Element.worksheet.sc
+2023.06.21 08:07:50 INFO  time: evaluated worksheet '027_Remove_Element.worksheet.sc' in 1.36s
+2023.06.21 08:13:11 INFO  Shutting down server
+2023.06.21 08:13:11 INFO  shutting down Metals
+2023.06.21 08:13:11 INFO  Exiting server

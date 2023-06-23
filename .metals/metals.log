@@ -5119,3 +5119,152 @@ INFO: Schema "PUBLIC" is up to date. No migration necessary.
 2023.06.22 07:15:52 INFO  Shutting down server
 2023.06.22 07:15:52 INFO  shutting down Metals
 2023.06.22 07:15:52 INFO  Exiting server
+2023.06.22 20:07:02 INFO  Started: Metals version 0.11.12 in workspace 'D:\Github\LeetCode' for client Visual Studio Code 1.79.2.
+Jun 22, 2023 8:07:02 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 22, 2023 8:07:02 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 22, 2023 8:07:02 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 22, 2023 8:07:03 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Github\LeetCode\.metals\metals (H2 2.1)
+Jun 22, 2023 8:07:03 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.036s)
+Jun 22, 2023 8:07:03 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jun 22, 2023 8:07:03 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.22 20:07:03 INFO  time: initialize in 0.99s
+2023.06.22 20:07:05 WARN  Build server is not auto-connectable.
+2023.06.22 20:07:05 WARN  no build tool detected in workspace 'D:\Github\LeetCode'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.22 20:07:05 WARN  no build target for: D:\Github\LeetCode\004_Median_of_Two_Sorted_Arrays.worksheet.sc
+2023.06.22 20:07:12 INFO  no build target found for D:\Github\LeetCode\004_Median_of_Two_Sorted_Arrays.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.22 20:07:15 INFO  time: code lens generation in 9.35s
+2023.06.22 20:07:16 INFO  no build target found for D:\Github\LeetCode\004_Median_of_Two_Sorted_Arrays.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.22 20:07:16 INFO  time: evaluated worksheet '004_Median_of_Two_Sorted_Arrays.worksheet.sc' in 10s
+2023.06.22 20:14:49 WARN  no build target for: D:\Github\LeetCode\009_Palindrome_Number.worksheet.sc
+2023.06.22 20:14:51 INFO  no build target found for D:\Github\LeetCode\009_Palindrome_Number.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.22 20:14:51 INFO  time: evaluated worksheet '009_Palindrome_Number.worksheet.sc' in 2.42s
+Jun 22, 2023 9:47:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 382
+2023.06.22 21:49:50 WARN  no build target for: D:\Github\LeetCode\009_Palindrome_Number.worksheet.sc
+[31merror[39m: 009_Palindrome_Number.worksheet.sc:14:9: 
+Found:    Unit
+Required: Boolean
+Maybe you are missing an else part for the conditional?
+        if(rev == x) return true
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+2023.06.22 21:49:51 INFO  time: evaluated worksheet '009_Palindrome_Number.worksheet.sc' in 0.47s
+2023.06.22 21:50:02 WARN  no build target for: D:\Github\LeetCode\009_Palindrome_Number.worksheet.sc
+[31merror[39m: 009_Palindrome_Number.worksheet.sc:14:9: 
+Found:    Unit
+Required: Boolean
+Maybe you are missing an else part for the conditional?
+        if(rev == x) true
+        ^^^^^^^^^^^^^^^^^
+2023.06.22 21:50:02 INFO  time: evaluated worksheet '009_Palindrome_Number.worksheet.sc' in 0.23s
+2023.06.22 21:50:25 WARN  no build target for: D:\Github\LeetCode\009_Palindrome_Number.worksheet.sc
+[31merror[39m: 009_Palindrome_Number.worksheet.sc:14:9: 
+Found:    Unit
+Required: Boolean
+Maybe you are missing an else part for the conditional?
+        if(rev == x){
+        ^
+2023.06.22 21:50:25 INFO  time: evaluated worksheet '009_Palindrome_Number.worksheet.sc' in 0.2s
+2023.06.22 21:50:54 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:211 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+            stack.isEmpty
+
+
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:114:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return(false) 
+                    ^^^^^^^^^^^^^
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:144:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return false
+                    ^^^^^^^^^^^^
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:173:9: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+        return false
+        ^^^^^^^^^^^^
+2023.06.22 21:50:59 INFO  no build target found for D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.22 21:50:59 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 4.88s
+2023.06.22 21:51:06 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:55 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(commonPrefix)
+
+
+2023.06.22 21:51:08 INFO  no build target found for D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.22 21:51:08 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 2.65s
+2023.06.22 21:51:14 WARN  no build target for: D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc
+2023.06.22 21:51:16 INFO  no build target found for D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.22 21:51:16 INFO  time: evaluated worksheet '026_Remove_Duplicates_from_Sorted_Array.worksheet.sc' in 2.14s
+2023.06.22 21:51:18 WARN  no build target for: D:\Github\LeetCode\001_two_sums.worksheet.sc
+[33mwarning[39m: 
+001_two_sums.worksheet.sc:10 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+            for {i <- indices; j <- indices} {
+
+
+[33mwarning[39m: 
+001_two_sums.worksheet.sc:14 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+            Array()
+
+
+[33mwarning[39m: 001_two_sums.worksheet.sc:7:56: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+            if (i != j && nums(i) + nums(j) == target) return Array(i, j)
+                                                       ^^^^^^^^^^^^^^^^^^
+[33mwarning[39m: 001_two_sums.worksheet.sc:24:13: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+            return Array(hashMap(complement), i)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.06.22 21:51:20 INFO  no build target found for D:\Github\LeetCode\001_two_sums.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.22 21:51:20 INFO  time: evaluated worksheet '001_two_sums.worksheet.sc' in 2.05s
+2023.06.22 21:51:24 WARN  no build target for: D:\Github\LeetCode\027_Remove_Element.worksheet.sc
+2023.06.22 21:51:26 INFO  no build target found for D:\Github\LeetCode\027_Remove_Element.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.22 21:51:26 INFO  time: evaluated worksheet '027_Remove_Element.worksheet.sc' in 1.84s
+2023.06.22 21:51:50 WARN  no build target for: D:\Github\LeetCode\009_Palindrome_Number.worksheet.sc
+[31merror[39m: 009_Palindrome_Number.worksheet.sc:7:9: 
+Found:    Unit
+Required: Boolean
+        while(temp > 0){
+        ^
+2023.06.22 21:51:50 INFO  time: evaluated worksheet '009_Palindrome_Number.worksheet.sc' in 0.14s
+2023.06.22 21:52:12 WARN  no build target for: D:\Github\LeetCode\009_Palindrome_Number.worksheet.sc
+2023.06.22 21:52:13 INFO  time: evaluated worksheet '009_Palindrome_Number.worksheet.sc' in 0.35s
+2023.06.22 21:54:50 WARN  no build target for: D:\Github\LeetCode\009_Palindrome_Number.worksheet.sc
+2023.06.22 21:54:51 INFO  time: evaluated worksheet '009_Palindrome_Number.worksheet.sc' in 0.24s
+2023.06.22 21:55:03 WARN  no build target for: D:\Github\LeetCode\009_Palindrome_Number.worksheet.sc
+[31merror[39m: 009_Palindrome_Number.worksheet.sc:19:1: 
+Not found: isPalindrome
+isPalindrome(121)
+^^^^^^^^^^^^
+2023.06.22 21:55:03 INFO  time: evaluated worksheet '009_Palindrome_Number.worksheet.sc' in 0.15s
+2023.06.22 21:55:14 WARN  no build target for: D:\Github\LeetCode\009_Palindrome_Number.worksheet.sc
+2023.06.22 21:55:14 INFO  time: evaluated worksheet '009_Palindrome_Number.worksheet.sc' in 0.31s
+2023.06.22 21:55:26 WARN  no build target for: D:\Github\LeetCode\009_Palindrome_Number.worksheet.sc
+2023.06.22 21:55:26 INFO  time: evaluated worksheet '009_Palindrome_Number.worksheet.sc' in 0.28s
+2023.06.22 21:55:29 WARN  no build target for: D:\Github\LeetCode\009_Palindrome_Number.worksheet.sc
+2023.06.22 21:55:30 INFO  time: evaluated worksheet '009_Palindrome_Number.worksheet.sc' in 0.35s
+Jun 22, 2023 9:55:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1521
+2023.06.22 21:55:48 WARN  no build target for: D:\Github\LeetCode\009_Palindrome_Number.worksheet.sc
+2023.06.22 21:55:48 INFO  time: evaluated worksheet '009_Palindrome_Number.worksheet.sc' in 0.27s
+2023.06.22 21:57:10 WARN  no build target for: D:\Github\LeetCode\009_Palindrome_Number.worksheet.sc
+2023.06.22 21:57:10 INFO  time: evaluated worksheet '009_Palindrome_Number.worksheet.sc' in 0.26s
+2023.06.22 22:24:01 INFO  Shutting down server
+2023.06.22 22:24:01 INFO  shutting down Metals
+2023.06.22 22:24:01 INFO  Exiting server

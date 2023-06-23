@@ -5352,3 +5352,112 @@ INFO: Schema "PUBLIC" is up to date. No migration necessary.
 2023.06.23 19:10:52 INFO  Shutting down server
 2023.06.23 19:10:52 INFO  shutting down Metals
 2023.06.23 19:10:52 INFO  Exiting server
+2023.06.23 19:30:35 INFO  Started: Metals version 0.11.12 in workspace 'D:\Github\LeetCode' for client Visual Studio Code 1.79.2.
+Jun 23, 2023 7:30:35 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 23, 2023 7:30:35 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 23, 2023 7:30:35 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 23, 2023 7:30:36 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Github\LeetCode\.metals\metals (H2 2.1)
+Jun 23, 2023 7:30:36 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.042s)
+Jun 23, 2023 7:30:36 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jun 23, 2023 7:30:36 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.23 19:30:36 INFO  time: initialize in 0.86s
+2023.06.23 19:30:38 WARN  Build server is not auto-connectable.
+2023.06.23 19:30:38 WARN  no build tool detected in workspace 'D:\Github\LeetCode'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.23 19:30:38 WARN  no build target for: D:\Github\LeetCode\35_Search_Insert_Position.worksheet.sc
+2023.06.23 19:30:44 INFO  no build target found for D:\Github\LeetCode\35_Search_Insert_Position.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.23 19:30:48 INFO  time: code lens generation in 9.15s
+2023.06.23 19:30:49 INFO  no build target found for D:\Github\LeetCode\35_Search_Insert_Position.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.23 19:30:49 INFO  time: evaluated worksheet '35_Search_Insert_Position.worksheet.sc' in 10s
+2023.06.23 21:37:53 WARN  no build target for: D:\Github\LeetCode\35_Search_Insert_Position.worksheet.sc
+[31merror[39m: 35_Search_Insert_Position.worksheet.sc:9:21: 
+Not found: type mid
+            if(nums[mid]){
+                    ^^^
+[31merror[39m: 35_Search_Insert_Position.worksheet.sc:12:26: 
+Not found: type mid
+            else if(nums[mid] > target){
+                         ^^^
+2023.06.23 21:37:53 INFO  time: evaluated worksheet '35_Search_Insert_Position.worksheet.sc' in 0.35s
+2023.06.23 21:38:09 WARN  no build target for: D:\Github\LeetCode\35_Search_Insert_Position.worksheet.sc
+[31merror[39m: 35_Search_Insert_Position.worksheet.sc:9:16: 
+Found:    Int
+Required: Boolean
+            if(nums(mid)){
+               ^^^^^^^^^
+2023.06.23 21:38:09 INFO  time: evaluated worksheet '35_Search_Insert_Position.worksheet.sc' in 0.26s
+2023.06.23 21:38:19 WARN  no build target for: D:\Github\LeetCode\35_Search_Insert_Position.worksheet.sc
+2023.06.23 21:38:19 INFO  time: evaluated worksheet '35_Search_Insert_Position.worksheet.sc' in 0.45s
+Jun 23, 2023 9:38:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1267
+2023.06.23 21:38:57 WARN  no build target for: D:\Github\LeetCode\35_Search_Insert_Position.worksheet.sc
+[31merror[39m: 35_Search_Insert_Position.worksheet.sc:25:1: 
+Not found: nums
+nums = Array(1,3,5,6)
+^^^^
+[31merror[39m: 35_Search_Insert_Position.worksheet.sc:27:23: 
+Not found: nums
+Solution.searchInsert(nums, 5)
+                      ^^^^
+2023.06.23 21:38:57 INFO  time: evaluated worksheet '35_Search_Insert_Position.worksheet.sc' in 0.3s
+2023.06.23 21:39:03 WARN  no build target for: D:\Github\LeetCode\35_Search_Insert_Position.worksheet.sc
+2023.06.23 21:39:04 INFO  time: evaluated worksheet '35_Search_Insert_Position.worksheet.sc' in 0.8s
+2023.06.23 21:39:37 WARN  no build target for: D:\Github\LeetCode\35_Search_Insert_Position.worksheet.sc
+[31merror[39m: 35_Search_Insert_Position.worksheet.sc:35:29: 
+Not found: target
+            if(nums(mid) == target){
+                            ^^^^^^
+[31merror[39m: 35_Search_Insert_Position.worksheet.sc:36:17: 
+return outside method definition
+                return(mid)
+                ^^^^^^^^^^^
+[31merror[39m: 35_Search_Insert_Position.worksheet.sc:38:33: 
+Not found: target
+            else if(nums(mid) > target){
+                                ^^^^^^
+2023.06.23 21:39:37 INFO  time: evaluated worksheet '35_Search_Insert_Position.worksheet.sc' in 0.29s
+2023.06.23 21:39:50 WARN  no build target for: D:\Github\LeetCode\35_Search_Insert_Position.worksheet.sc
+[31merror[39m: 35_Search_Insert_Position.worksheet.sc:37:17: 
+return outside method definition
+                return(mid)
+                ^^^^^^^^^^^
+2023.06.23 21:39:50 INFO  time: evaluated worksheet '35_Search_Insert_Position.worksheet.sc' in 0.27s
+2023.06.23 21:40:01 WARN  no build target for: D:\Github\LeetCode\35_Search_Insert_Position.worksheet.sc
+[31merror[39m: 35_Search_Insert_Position.worksheet.sc:37:17: 
+return outside method definition
+                return mid
+                ^^^^^^^^^^
+2023.06.23 21:40:01 INFO  time: evaluated worksheet '35_Search_Insert_Position.worksheet.sc' in 0.24s
+2023.06.23 21:40:09 WARN  no build target for: D:\Github\LeetCode\35_Search_Insert_Position.worksheet.sc
+2023.06.23 21:40:09 INFO  time: evaluated worksheet '35_Search_Insert_Position.worksheet.sc' in 0.6s
+2023.06.23 21:40:19 WARN  no build target for: D:\Github\LeetCode\35_Search_Insert_Position.worksheet.sc
+2023.06.23 21:40:32 INFO  time: evaluated worksheet '35_Search_Insert_Position.worksheet.sc' in 13s
+2023.06.23 21:40:32 WARN  thread interrupt: Evaluating Worksheet 35_Search_Insert_Position.worksheet.sc
+2023.06.23 21:40:36 WARN  no build target for: D:\Github\LeetCode\35_Search_Insert_Position.worksheet.sc
+2023.06.23 21:40:49 WARN  thread interrupt: Evaluating Worksheet 35_Search_Insert_Position.worksheet.sc
+2023.06.23 21:40:49 INFO  time: evaluated worksheet '35_Search_Insert_Position.worksheet.sc' in 13s
+2023.06.23 21:41:11 WARN  no build target for: D:\Github\LeetCode\35_Search_Insert_Position.worksheet.sc
+2023.06.23 21:41:18 WARN  thread interrupt: Evaluating Worksheet 35_Search_Insert_Position.worksheet.sc
+2023.06.23 21:41:18 INFO  time: evaluated worksheet '35_Search_Insert_Position.worksheet.sc' in 6.43s
+2023.06.23 21:43:05 WARN  no build target for: D:\Github\LeetCode\35_Search_Insert_Position.worksheet.sc
+2023.06.23 21:43:32 WARN  thread interrupt: Evaluating Worksheet 35_Search_Insert_Position.worksheet.sc
+2023.06.23 21:43:32 INFO  time: evaluated worksheet '35_Search_Insert_Position.worksheet.sc' in 27s
+2023.06.23 21:43:59 WARN  no build target for: D:\Github\LeetCode\35_Search_Insert_Position.worksheet.sc
+2023.06.23 21:43:59 INFO  time: evaluated worksheet '35_Search_Insert_Position.worksheet.sc' in 0.54s
+2023.06.23 21:45:31 WARN  no build target for: D:\Github\LeetCode\35_Search_Insert_Position.worksheet.sc
+2023.06.23 21:45:31 INFO  time: evaluated worksheet '35_Search_Insert_Position.worksheet.sc' in 0.48s
+2023.06.23 21:45:44 WARN  no build target for: D:\Github\LeetCode\35_Search_Insert_Position.worksheet.sc
+2023.06.23 21:45:44 INFO  time: evaluated worksheet '35_Search_Insert_Position.worksheet.sc' in 0.58s
+2023.06.23 21:46:08 WARN  no build target for: D:\Github\LeetCode\35_Search_Insert_Position.worksheet.sc
+2023.06.23 21:46:08 INFO  time: evaluated worksheet '35_Search_Insert_Position.worksheet.sc' in 0.53s
+2023.06.23 21:51:38 WARN  no build target for: D:\Github\LeetCode\35_Search_Insert_Position.worksheet.sc
+2023.06.23 21:51:39 INFO  time: evaluated worksheet '35_Search_Insert_Position.worksheet.sc' in 0.44s
+2023.06.23 21:53:17 WARN  no build target for: D:\Github\LeetCode\35_Search_Insert_Position.worksheet.sc
+2023.06.23 21:53:17 INFO  time: evaluated worksheet '35_Search_Insert_Position.worksheet.sc' in 0.64s
+2023.06.23 22:24:07 WARN  no build target for: D:\Github\LeetCode\066_Plus_One.worksheet.sc

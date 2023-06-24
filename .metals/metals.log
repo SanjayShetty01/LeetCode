@@ -5495,3 +5495,110 @@ Reassignment to val digits
             digits = 1 +: digits
             ^^^^^^^^^^^^^^^^^^^^
 2023.06.24 13:25:28 INFO  time: evaluated worksheet '066_Plus_One.worksheet.sc' in 0.23s
+2023.06.24 13:26:55 WARN  no build target for: D:\Github\LeetCode\066_Plus_One.worksheet.sc
+[31merror[39m: 066_Plus_One.worksheet.sc:15:12: 
+Found:    Unit
+Required: Boolean
+        if(digits(0) = 0){
+           ^^^^^^^^^^^^^
+2023.06.24 13:26:55 INFO  time: evaluated worksheet '066_Plus_One.worksheet.sc' in 0.26s
+2023.06.24 13:27:01 WARN  no build target for: D:\Github\LeetCode\066_Plus_One.worksheet.sc
+[33mwarning[39m: 066_Plus_One.worksheet.sc:8:17: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                return(digits)
+                ^^^^^^^^^^^^^^
+2023.06.24 13:27:01 INFO  time: evaluated worksheet '066_Plus_One.worksheet.sc' in 0.39s
+Jun 24, 2023 1:27:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3716
+Jun 24, 2023 1:27:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3717
+2023.06.24 13:27:45 WARN  no build target for: D:\Github\LeetCode\066_Plus_One.worksheet.sc
+[33mwarning[39m: 066_Plus_One.worksheet.sc:8:17: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                return(digits)
+                ^^^^^^^^^^^^^^
+2023.06.24 13:27:46 INFO  time: evaluated worksheet '066_Plus_One.worksheet.sc' in 0.65s
+2023.06.24 13:30:40 WARN  no build target for: D:\Github\LeetCode\066_Plus_One.worksheet.sc
+[33mwarning[39m: 066_Plus_One.worksheet.sc:8:17: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                return(digits)
+                ^^^^^^^^^^^^^^
+2023.06.24 13:30:40 INFO  time: evaluated worksheet '066_Plus_One.worksheet.sc' in 0.49s
+2023.06.24 13:30:48 WARN  no build target for: D:\Github\LeetCode\066_Plus_One.worksheet.sc
+[33mwarning[39m: 066_Plus_One.worksheet.sc:8:17: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                return(digits)
+                ^^^^^^^^^^^^^^
+2023.06.24 13:30:49 INFO  time: evaluated worksheet '066_Plus_One.worksheet.sc' in 0.65s
+2023.06.24 13:30:56 WARN  no build target for: D:\Github\LeetCode\066_Plus_One.worksheet.sc
+[33mwarning[39m: 066_Plus_One.worksheet.sc:8:17: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                return(digits)
+                ^^^^^^^^^^^^^^
+2023.06.24 13:30:56 INFO  time: evaluated worksheet '066_Plus_One.worksheet.sc' in 0.57s
+2023.06.24 13:31:00 WARN  no build target for: D:\Github\LeetCode\066_Plus_One.worksheet.sc
+[33mwarning[39m: 066_Plus_One.worksheet.sc:8:17: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                return(digits)
+                ^^^^^^^^^^^^^^
+2023.06.24 13:31:01 INFO  time: evaluated worksheet '066_Plus_One.worksheet.sc' in 0.49s
+2023.06.24 13:31:03 WARN  no build target for: D:\Github\LeetCode\066_Plus_One.worksheet.sc
+[33mwarning[39m: 066_Plus_One.worksheet.sc:8:17: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                return(digits)
+                ^^^^^^^^^^^^^^
+2023.06.24 13:31:03 INFO  time: evaluated worksheet '066_Plus_One.worksheet.sc' in 0.56s
+2023.06.24 13:31:06 WARN  no build target for: D:\Github\LeetCode\066_Plus_One.worksheet.sc
+[33mwarning[39m: 066_Plus_One.worksheet.sc:8:17: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                return(digits)
+                ^^^^^^^^^^^^^^
+2023.06.24 13:31:06 INFO  time: evaluated worksheet '066_Plus_One.worksheet.sc' in 0.43s
+2023.06.24 13:31:14 WARN  no build target for: D:\Github\LeetCode\066_Plus_One.worksheet.sc
+[33mwarning[39m: 066_Plus_One.worksheet.sc:8:17: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                return(digits)
+                ^^^^^^^^^^^^^^
+2023.06.24 13:31:14 INFO  time: evaluated worksheet '066_Plus_One.worksheet.sc' in 0.44s
+2023.06.24 13:31:19 WARN  no build target for: D:\Github\LeetCode\066_Plus_One.worksheet.sc
+[33mwarning[39m: 066_Plus_One.worksheet.sc:8:17: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                return(digits)
+                ^^^^^^^^^^^^^^
+2023.06.24 13:31:19 INFO  time: evaluated worksheet '066_Plus_One.worksheet.sc' in 0.43s
+2023.06.24 13:31:28 WARN  no build target for: D:\Github\LeetCode\066_Plus_One.worksheet.sc
+[33mwarning[39m: 066_Plus_One.worksheet.sc:8:17: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                return(digits)
+                ^^^^^^^^^^^^^^
+2023.06.24 13:31:28 INFO  time: evaluated worksheet '066_Plus_One.worksheet.sc' in 0.41s
+2023.06.24 13:31:34 WARN  no build target for: D:\Github\LeetCode\066_Plus_One.worksheet.sc
+[33mwarning[39m: 066_Plus_One.worksheet.sc:8:17: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                return(digits)
+                ^^^^^^^^^^^^^^
+2023.06.24 13:31:34 INFO  time: evaluated worksheet '066_Plus_One.worksheet.sc' in 0.42s
+2023.06.24 13:32:02 WARN  no build target for: D:\Github\LeetCode\066_Plus_One.worksheet.sc
+[33mwarning[39m: 066_Plus_One.worksheet.sc:8:17: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                return(digits)
+                ^^^^^^^^^^^^^^
+2023.06.24 13:32:02 INFO  time: evaluated worksheet '066_Plus_One.worksheet.sc' in 0.38s
+2023.06.24 13:32:06 WARN  no build target for: D:\Github\LeetCode\066_Plus_One.worksheet.sc
+[33mwarning[39m: 066_Plus_One.worksheet.sc:8:17: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                return(digits)
+                ^^^^^^^^^^^^^^
+2023.06.24 13:32:06 INFO  time: evaluated worksheet '066_Plus_One.worksheet.sc' in 0.41s
+2023.06.24 13:39:07 WARN  no build target for: D:\Github\LeetCode\066_Plus_One.worksheet.sc
+[33mwarning[39m: 066_Plus_One.worksheet.sc:8:17: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                return(digits)
+                ^^^^^^^^^^^^^^
+2023.06.24 13:39:08 INFO  time: evaluated worksheet '066_Plus_One.worksheet.sc' in 0.34s
+2023.06.24 13:39:10 WARN  no build target for: D:\Github\LeetCode\066_Plus_One.worksheet.sc
+[33mwarning[39m: 066_Plus_One.worksheet.sc:8:17: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                return(digits)
+                ^^^^^^^^^^^^^^
+2023.06.24 13:39:10 INFO  time: evaluated worksheet '066_Plus_One.worksheet.sc' in 0.35s

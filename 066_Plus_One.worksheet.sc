@@ -11,10 +11,7 @@ object Solution {
                 digits(i) = 0
             }
         }
-
         1 +: digits
-
-        
     }   
 }
 

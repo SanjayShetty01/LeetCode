@@ -5946,3 +5946,39 @@ val n = 3
 2023.06.25 12:47:15 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.46s
 2023.06.25 12:48:15 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
 2023.06.25 12:48:16 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.51s
+2023.06.25 12:49:46 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.25 12:49:47 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.61s
+2023.06.25 12:50:58 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.25 12:50:58 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.52s
+2023.06.25 12:51:04 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.25 12:51:04 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.4s
+2023.06.25 12:51:22 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.25 12:51:23 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.44s
+2023.06.25 12:51:33 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.25 12:51:33 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.66s
+2023.06.25 12:52:24 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.25 12:52:24 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.42s
+2023.06.25 12:52:29 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.25 12:52:29 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.41s
+2023.06.25 12:53:33 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.25 12:53:34 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.35s
+Jun 25, 2023 12:55:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8661
+2023.06.25 12:55:32 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.25 12:55:32 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.43s
+2023.06.25 12:55:47 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.25 12:55:48 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.57s
+2023.06.25 12:55:51 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.25 12:55:51 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.37s
+2023.06.25 12:57:28 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+[31merror[39m: 088_Merge_Sorted_Array.worksheet.sc:44:1: 
+Solution is already defined as object Solution
+object Solution {
+^
+[31merror[39m: 088_Merge_Sorted_Array.worksheet.sc:50:1: 
+Not found: Solution1
+Solution1.merge(nums1, 3, nums2, 3)
+^^^^^^^^^
+2023.06.25 12:57:28 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.19s
+2023.06.25 12:57:37 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.25 12:57:37 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.3s

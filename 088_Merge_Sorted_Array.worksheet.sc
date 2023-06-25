@@ -41,7 +41,7 @@ val n = 3
 
 (g.take(m) ++ h.take(n)).sorted.mkString
 
-object Solution1 {
+object Solution1     {
     def merge(nums1: Array[Int], m: Int, nums2: Array[Int], n: Int): Unit = {
        (nums1.take(m) ++ nums2.take(n)).sorted.copyToArray(nums1)
     }

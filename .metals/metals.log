@@ -5982,3 +5982,58 @@ Solution1.merge(nums1, 3, nums2, 3)
 2023.06.25 12:57:28 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.19s
 2023.06.25 12:57:37 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
 2023.06.25 12:57:37 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.3s
+2023.06.25 12:58:57 WARN  no build target for: D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc
+2023.06.25 12:58:58 INFO  time: evaluated worksheet '026_Remove_Duplicates_from_Sorted_Array.worksheet.sc' in 0.42s
+2023.06.25 12:59:12 WARN  no build target for: D:\Github\LeetCode\027_Remove_Element.worksheet.sc
+2023.06.25 12:59:13 INFO  time: evaluated worksheet '027_Remove_Element.worksheet.sc' in 0.49s
+2023.06.25 12:59:16 WARN  no build target for: D:\Github\LeetCode\35_Search_Insert_Position.worksheet.sc
+2023.06.25 12:59:17 INFO  time: evaluated worksheet '35_Search_Insert_Position.worksheet.sc' in 0.41s
+2023.06.25 15:27:33 WARN  no build target for: D:\Github\LeetCode\35_Search_Insert_Position.worksheet.sc
+2023.06.25 15:27:34 INFO  time: evaluated worksheet '35_Search_Insert_Position.worksheet.sc' in 0.98s
+2023.06.25 19:09:16 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+2023.06.25 19:09:17 WARN  no build target for: D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:211 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+            stack.isEmpty
+
+
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:114:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return(false) 
+                    ^^^^^^^^^^^^^
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:144:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return false
+                    ^^^^^^^^^^^^
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:173:9: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+        return false
+        ^^^^^^^^^^^^
+2023.06.25 19:09:18 WARN  no build target for: D:\Github\LeetCode\027_Remove_Element.worksheet.sc
+2023.06.25 19:09:19 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 2.94s
+2023.06.25 19:09:19 INFO  time: evaluated worksheet '027_Remove_Element.worksheet.sc' in 0.44s
+2023.06.25 19:09:19 WARN  no build target for: D:\Github\LeetCode\028_Find_the_Index_of_the_First_Occurrence_in_a_String.worksheet.sc
+2023.06.25 19:09:20 INFO  time: evaluated worksheet '026_Remove_Duplicates_from_Sorted_Array.worksheet.sc' in 0.29s
+2023.06.25 19:09:19 INFO  time: evaluated worksheet '028_Find_the_Index_of_the_First_Occurrence_in_a_String.worksheet.sc' in 0.2s
+2023.06.25 19:09:28 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.25 19:09:28 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.52s
+2023.06.25 19:16:28 WARN  no build target for: D:\Github\LeetCode\121_Best_Time_to_Buy_and_Sell_Stock.worksheet.sc
+2023.06.25 19:16:30 INFO  no build target found for D:\Github\LeetCode\121_Best_Time_to_Buy_and_Sell_Stock.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.25 19:16:30 INFO  time: evaluated worksheet '121_Best_Time_to_Buy_and_Sell_Stock.worksheet.sc' in 2.6s
+Jun 25, 2023 7:19:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9263
+2023.06.25 19:22:20 WARN  no build target for: D:\Github\LeetCode\121_Best_Time_to_Buy_and_Sell_Stock.worksheet.sc
+2023.06.25 19:22:20 INFO  time: evaluated worksheet '121_Best_Time_to_Buy_and_Sell_Stock.worksheet.sc' in 0.29s
+2023.06.25 19:22:58 WARN  no build target for: D:\Github\LeetCode\121_Best_Time_to_Buy_and_Sell_Stock.worksheet.sc
+2023.06.25 19:22:58 INFO  time: evaluated worksheet '121_Best_Time_to_Buy_and_Sell_Stock.worksheet.sc' in 0.3s
+Jun 25, 2023 7:23:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10177
+2023.06.25 20:05:39 WARN  no build target for: D:\Github\LeetCode\121_Best_Time_to_Buy_and_Sell_Stock.worksheet.sc
+2023.06.25 20:05:39 INFO  time: evaluated worksheet '121_Best_Time_to_Buy_and_Sell_Stock.worksheet.sc' in 0.49s

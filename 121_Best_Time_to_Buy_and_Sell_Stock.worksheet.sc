@@ -21,3 +21,19 @@ object Solution {
 val prices = Array(7,1,5,3,6,4)
 
 Solution.maxProfit(prices)
+
+
+object Solution1 {
+  def maxProfit(prices: Array[Int]): Int = {
+    def calculateMaxProfit(prices: List[Int], minPrice: Int, maxProfit: Int): Int = prices match {
+      case Nil => maxProfit
+      case price :: tail =>
+        val currentProfit = price - minPrice
+        val updatedMinPrice = Math.min(minPrice, price)
+        val updatedMaxProfit = Math.max(maxProfit, currentProfit)
+        calculateMaxProfit(tail, updatedMinPrice, updatedMaxProfit)
+    }
+    
+    calculateMaxProfit(prices.toList, Int.MaxValue, 0)
+  }
+}

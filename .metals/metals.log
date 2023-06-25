@@ -6052,3 +6052,54 @@ WARNING: Unmatched cancel notification for request id 10308
 2023.06.25 20:42:56 INFO  time: evaluated worksheet '136_Single_Number.worksheet.sc' in 0.17s
 2023.06.25 20:58:21 WARN  no build target for: D:\Github\LeetCode\136_Single_Number.worksheet.sc
 2023.06.25 20:58:21 INFO  time: evaluated worksheet '136_Single_Number.worksheet.sc' in 0.41s
+2023.06.25 21:01:45 WARN  no build target for: D:\Github\LeetCode\169_Majority_Element.worksheet.sc
+2023.06.25 21:01:48 INFO  no build target found for D:\Github\LeetCode\169_Majority_Element.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.25 21:01:48 INFO  time: evaluated worksheet '169_Majority_Element.worksheet.sc' in 2.54s
+2023.06.25 21:10:00 WARN  no build target for: D:\Github\LeetCode\136_Single_Number.worksheet.sc
+2023.06.25 21:10:01 INFO  time: evaluated worksheet '136_Single_Number.worksheet.sc' in 0.47s
+Jun 25, 2023 9:10:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10566
+2023.06.25 21:10:13 WARN  no build target for: D:\Github\LeetCode\136_Single_Number.worksheet.sc
+2023.06.25 21:10:13 INFO  time: evaluated worksheet '136_Single_Number.worksheet.sc' in 0.22s
+2023.06.25 21:10:17 WARN  no build target for: D:\Github\LeetCode\136_Single_Number.worksheet.sc
+2023.06.25 21:10:17 INFO  time: evaluated worksheet '136_Single_Number.worksheet.sc' in 0.27s
+2023.06.25 21:10:19 WARN  no build target for: D:\Github\LeetCode\169_Majority_Element.worksheet.sc
+2023.06.25 21:10:19 INFO  time: evaluated worksheet '169_Majority_Element.worksheet.sc' in 0.2s
+Jun 25, 2023 9:24:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10938
+2023.06.25 21:40:42 WARN  no build target for: D:\Github\LeetCode\169_Majority_Element.worksheet.sc
+[31merror[39m: 169_Majority_Element.worksheet.sc:8:21: 
+Found:    Int
+Required: Ordering[Int]
+        nums.sorted(nums.length/2)
+                    ^^^^^^^^^^^^^
+2023.06.25 21:40:42 INFO  time: evaluated worksheet '169_Majority_Element.worksheet.sc' in 0.3s
+2023.06.25 21:44:17 WARN  no build target for: D:\Github\LeetCode\169_Majority_Element.worksheet.sc
+[31merror[39m: 169_Majority_Element.worksheet.sc:8:21: 
+Found:    Int
+Required: Ordering[Int]
+        nums.sorted(nums.length/2)
+                    ^^^^^^^^^^^^^
+2023.06.25 21:44:18 INFO  time: evaluated worksheet '169_Majority_Element.worksheet.sc' in 0.26s
+2023.06.25 21:47:43 WARN  no build target for: D:\Github\LeetCode\169_Majority_Element.worksheet.sc
+2023.06.25 21:47:43 INFO  time: evaluated worksheet '169_Majority_Element.worksheet.sc' in 0.53s
+2023.06.25 21:47:58 WARN  no build target for: D:\Github\LeetCode\169_Majority_Element.worksheet.sc
+[31merror[39m: 169_Majority_Element.worksheet.sc:7:30: 
+Not found: type T
+        nums.sorted(Ordering[T])(nums.length/2)
+                             ^
+[31merror[39m: 169_Majority_Element.worksheet.sc:7:32: 
+No implicit Ordering defined for <error Not found: type T>.
+        nums.sorted(Ordering[T])(nums.length/2)
+                               ^
+2023.06.25 21:47:58 INFO  time: evaluated worksheet '169_Majority_Element.worksheet.sc' in 0.24s
+2023.06.25 21:48:03 WARN  no build target for: D:\Github\LeetCode\169_Majority_Element.worksheet.sc
+2023.06.25 21:48:03 INFO  time: evaluated worksheet '169_Majority_Element.worksheet.sc' in 0.38s
+2023.06.25 21:48:15 WARN  no build target for: D:\Github\LeetCode\169_Majority_Element.worksheet.sc
+2023.06.25 21:48:16 INFO  time: evaluated worksheet '169_Majority_Element.worksheet.sc' in 0.52s
+2023.06.25 21:48:26 WARN  no build target for: D:\Github\LeetCode\169_Majority_Element.worksheet.sc
+2023.06.25 21:48:26 INFO  time: evaluated worksheet '169_Majority_Element.worksheet.sc' in 0.62s
+2023.06.25 22:08:35 WARN  no build target for: D:\Github\LeetCode\169_Majority_Element.worksheet.sc
+2023.06.25 22:08:35 INFO  time: evaluated worksheet '169_Majority_Element.worksheet.sc' in 0.33s
+2023.06.25 22:09:25 WARN  no build target for: D:\Github\LeetCode\169_Majority_Element.worksheet.sc
+2023.06.25 22:09:25 INFO  time: evaluated worksheet '169_Majority_Element.worksheet.sc' in 0.33s

@@ -5602,3 +5602,347 @@ Non local returns are no longer supported; use scala.util.control.NonLocalReturn
                 return(digits)
                 ^^^^^^^^^^^^^^
 2023.06.24 13:39:10 INFO  time: evaluated worksheet '066_Plus_One.worksheet.sc' in 0.35s
+2023.06.24 19:27:32 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.24 19:27:36 WARN  no build target for: D:\Github\LeetCode\066_Plus_One.worksheet.sc
+2023.06.24 19:27:37 INFO  no build target found for D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.24 19:27:37 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 4.07s
+[33mwarning[39m: 066_Plus_One.worksheet.sc:8:17: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                return(digits)
+                ^^^^^^^^^^^^^^
+2023.06.24 19:27:37 INFO  time: evaluated worksheet '066_Plus_One.worksheet.sc' in 0.56s
+2023.06.24 19:40:50 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.24 19:40:51 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.3s
+2023.06.24 22:27:28 WARN  no build target for: D:\Github\LeetCode\066_Plus_One.worksheet.sc
+Jun 24, 2023 10:27:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4378
+[33mwarning[39m: 066_Plus_One.worksheet.sc:8:17: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                return(digits)
+                ^^^^^^^^^^^^^^
+2023.06.24 22:27:29 INFO  time: evaluated worksheet '066_Plus_One.worksheet.sc' in 1.44s
+Jun 24, 2023 10:35:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4404
+2023.06.24 22:36:28 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.24 22:36:28 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.29s
+2023.06.24 22:36:36 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.24 22:36:36 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.27s
+2023.06.24 22:36:44 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.24 22:36:45 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.38s
+2023.06.24 22:36:51 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+[31merror[39m: 088_Merge_Sorted_Array.worksheet.sc:11:18: 
+value sort is not a member of String - did you mean String.split?
+(g ++ h).mkString.sort
+                 ^
+2023.06.24 22:36:51 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.15s
+2023.06.24 22:36:55 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.24 22:36:55 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.29s
+Jun 24, 2023 10:37:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4817
+2023.06.24 22:37:39 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+[31merror[39m: 088_Merge_Sorted_Array.worksheet.sc:11:17: 
+missing argument for parameter p of method forall in class ArrayOps: (p: Int => Boolean): Boolean
+(g ++ h).sorted.forall()
+                ^^^^^^
+2023.06.24 22:37:39 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.14s
+2023.06.24 22:37:42 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.24 22:37:43 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.29s
+Jun 24, 2023 10:38:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4839
+2023.06.24 22:39:10 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.24 22:39:10 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.24s
+2023.06.24 22:39:16 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.24 22:39:17 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.27s
+2023.06.24 22:39:22 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.24 22:39:22 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.36s
+2023.06.24 22:39:28 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.24 22:39:28 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.28s
+2023.06.24 22:39:37 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.24 22:39:37 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.23s
+2023.06.24 22:41:44 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+[31merror[39m: 088_Merge_Sorted_Array.worksheet.sc:11:24: 
+value sorted is not a member of Unit
+(g ++ h).foreach(_ > 0).sorted.mkString
+                       ^
+2023.06.24 22:41:44 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.11s
+2023.06.24 22:41:53 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.24 22:41:53 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.33s
+2023.06.24 22:42:00 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+[31merror[39m: 088_Merge_Sorted_Array.worksheet.sc:11:5: 
+Found:    String
+Required: Array[Int]
+g = (g ++ h).filter(_ > 0).sorted.mkString
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.06.24 22:42:00 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.1s
+2023.06.24 22:42:10 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+[31merror[39m: 088_Merge_Sorted_Array.worksheet.sc:11:1: 
+Reassignment to val g
+g = (g ++ h).filter(_ > 0).sorted
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.06.24 22:42:10 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.15s
+2023.06.24 22:42:18 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+[31merror[39m: 088_Merge_Sorted_Array.worksheet.sc:11:10: 
+Recursive variable g needs type
+var g = (g ++ h).filter(_ > 0).sorted
+         ^
+2023.06.24 22:42:18 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.1s
+2023.06.24 22:42:26 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.24 22:42:26 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.39s
+2023.06.24 22:44:20 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.24 22:44:21 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.28s
+2023.06.24 22:44:24 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.24 22:44:25 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.35s
+Jun 24, 2023 10:45:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5459
+2023.06.24 22:45:06 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.24 22:45:07 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.32s
+2023.06.24 22:45:16 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.24 22:45:16 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.29s
+2023.06.24 22:52:12 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.24 22:52:12 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.33s
+Jun 24, 2023 10:52:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5624
+2023.06.24 22:53:35 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.24 22:53:35 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.31s
+2023.06.24 22:54:16 WARN  no build target for: D:\Github\LeetCode\013_roman_to_integer.worksheet.sc
+[33mwarning[39m: 
+013_roman_to_integer.worksheet.sc:58 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        val VALUE_MAP= Map(
+
+
+2023.06.24 22:54:19 INFO  no build target found for D:\Github\LeetCode\013_roman_to_integer.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.24 22:54:19 INFO  time: evaluated worksheet '013_roman_to_integer.worksheet.sc' in 3.15s
+2023.06.24 22:55:16 WARN  no build target for: D:\Github\LeetCode\066_Plus_One.worksheet.sc
+[33mwarning[39m: 066_Plus_One.worksheet.sc:8:17: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                return(digits)
+                ^^^^^^^^^^^^^^
+2023.06.24 22:55:17 INFO  time: evaluated worksheet '066_Plus_One.worksheet.sc' in 0.41s
+2023.06.24 22:58:07 WARN  no build target for: D:\Github\LeetCode\35_Search_Insert_Position.worksheet.sc
+2023.06.24 22:58:07 INFO  time: evaluated worksheet '35_Search_Insert_Position.worksheet.sc' in 0.37s
+2023.06.24 22:58:14 WARN  no build target for: D:\Github\LeetCode\001_two_sums.worksheet.sc
+[33mwarning[39m: 
+001_two_sums.worksheet.sc:10 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+            for {i <- indices; j <- indices} {
+
+
+[33mwarning[39m: 
+001_two_sums.worksheet.sc:14 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+            Array()
+
+
+[33mwarning[39m: 001_two_sums.worksheet.sc:7:56: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+            if (i != j && nums(i) + nums(j) == target) return Array(i, j)
+                                                       ^^^^^^^^^^^^^^^^^^
+[33mwarning[39m: 001_two_sums.worksheet.sc:24:13: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+            return Array(hashMap(complement), i)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.06.24 22:58:16 WARN  no build target for: D:\Github\LeetCode\004_Median_of_Two_Sorted_Arrays.worksheet.sc
+2023.06.24 22:58:16 INFO  no build target found for D:\Github\LeetCode\001_two_sums.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.24 22:58:16 INFO  time: evaluated worksheet '001_two_sums.worksheet.sc' in 2.39s
+2023.06.24 22:58:18 INFO  no build target found for D:\Github\LeetCode\004_Median_of_Two_Sorted_Arrays.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.24 22:58:18 INFO  time: evaluated worksheet '004_Median_of_Two_Sorted_Arrays.worksheet.sc' in 1.97s
+2023.06.24 22:58:20 WARN  no build target for: D:\Github\LeetCode\009_Palindrome_Number.worksheet.sc
+2023.06.24 22:58:22 WARN  no build target for: D:\Github\LeetCode\013_roman_to_integer.worksheet.sc
+2023.06.24 22:58:22 INFO  no build target found for D:\Github\LeetCode\009_Palindrome_Number.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.24 22:58:22 INFO  time: evaluated worksheet '009_Palindrome_Number.worksheet.sc' in 2.31s
+[33mwarning[39m: 
+013_roman_to_integer.worksheet.sc:58 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        val VALUE_MAP= Map(
+
+
+2023.06.24 22:58:23 INFO  time: evaluated worksheet '013_roman_to_integer.worksheet.sc' in 0.53s
+2023.06.24 22:58:22 WARN  no build target for: D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc
+[33mwarning[39m: 
+014_Longest_Common_Prefix.worksheet.sc:55 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(commonPrefix)
+
+
+2023.06.24 22:58:26 INFO  no build target found for D:\Github\LeetCode\014_Longest_Common_Prefix.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.24 22:58:26 INFO  time: evaluated worksheet '014_Longest_Common_Prefix.worksheet.sc' in 2.66s
+2023.06.24 22:58:31 WARN  no build target for: D:\Github\LeetCode\066_Plus_One.worksheet.sc
+[33mwarning[39m: 066_Plus_One.worksheet.sc:8:17: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                return(digits)
+                ^^^^^^^^^^^^^^
+2023.06.24 22:58:31 INFO  time: evaluated worksheet '066_Plus_One.worksheet.sc' in 0.48s
+Jun 25, 2023 11:35:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5827
+Jun 25, 2023 12:31:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6421
+Jun 25, 2023 12:32:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6708
+Jun 25, 2023 12:32:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6711
+2023.06.25 12:34:27 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+[31merror[39m: 088_Merge_Sorted_Array.worksheet.sc:4:17: 
+Reassignment to val m
+        var k = m = n -1
+                ^^^^^^^^
+[31merror[39m: 088_Merge_Sorted_Array.worksheet.sc:6:17: 
+value && is not a member of Int
+            if (nums1(m - 1) && nums2(n - 1)){
+                ^^^^^^^^^^^^^^^
+[31merror[39m: 088_Merge_Sorted_Array.worksheet.sc:8:17: 
+value += is not a member of Int - did you mean m.!=?
+                m +=1
+                ^^^^
+[31merror[39m: 088_Merge_Sorted_Array.worksheet.sc:12:17: 
+value += is not a member of Int - did you mean n.!=?
+                n +=1 
+                ^^^^
+[31merror[39m: 088_Merge_Sorted_Array.worksheet.sc:21:13: 
+value -= is not a member of Int - did you mean n.!=?
+            n -= 1
+            ^^^^
+2023.06.25 12:34:27 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.27s
+2023.06.25 12:34:42 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+[31merror[39m: 088_Merge_Sorted_Array.worksheet.sc:6:17: 
+value && is not a member of Int
+            if (nums1(m - 1) && nums2(n - 1)){
+                ^^^^^^^^^^^^^^^
+[31merror[39m: 088_Merge_Sorted_Array.worksheet.sc:8:17: 
+value += is not a member of Int - did you mean m.!=?
+                m +=1
+                ^^^^
+[31merror[39m: 088_Merge_Sorted_Array.worksheet.sc:12:17: 
+value += is not a member of Int - did you mean n.!=?
+                n +=1 
+                ^^^^
+[31merror[39m: 088_Merge_Sorted_Array.worksheet.sc:15:13: 
+value =+ is not a member of Int - did you mean Int.==?
+            k =+ 1
+            ^^^^
+[31merror[39m: 088_Merge_Sorted_Array.worksheet.sc:21:13: 
+value -= is not a member of Int - did you mean n.!=?
+            n -= 1
+            ^^^^
+2023.06.25 12:34:42 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.16s
+2023.06.25 12:35:52 WARN  no build target for: D:\Github\LeetCode\066_Plus_One.worksheet.sc
+[33mwarning[39m: 066_Plus_One.worksheet.sc:8:17: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                return(digits)
+                ^^^^^^^^^^^^^^
+2023.06.25 12:35:52 INFO  time: evaluated worksheet '066_Plus_One.worksheet.sc' in 0.41s
+2023.06.25 12:35:57 WARN  no build target for: D:\Github\LeetCode\35_Search_Insert_Position.worksheet.sc
+2023.06.25 12:35:57 INFO  time: evaluated worksheet '35_Search_Insert_Position.worksheet.sc' in 0.32s
+2023.06.25 12:36:02 WARN  no build target for: D:\Github\LeetCode\028_Find_the_Index_of_the_First_Occurrence_in_a_String.worksheet.sc
+2023.06.25 12:36:04 INFO  no build target found for D:\Github\LeetCode\028_Find_the_Index_of_the_First_Occurrence_in_a_String.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.25 12:36:04 INFO  time: evaluated worksheet '028_Find_the_Index_of_the_First_Occurrence_in_a_String.worksheet.sc' in 2.1s
+2023.06.25 12:36:09 WARN  no build target for: D:\Github\LeetCode\027_Remove_Element.worksheet.sc
+Jun 25, 2023 12:36:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7047
+2023.06.25 12:36:11 INFO  no build target found for D:\Github\LeetCode\027_Remove_Element.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.25 12:36:11 INFO  time: evaluated worksheet '027_Remove_Element.worksheet.sc' in 2.06s
+2023.06.25 12:36:16 WARN  no build target for: D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc
+2023.06.25 12:36:18 INFO  no build target found for D:\Github\LeetCode\026_Remove_Duplicates_from_Sorted_Array.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.25 12:36:18 INFO  time: evaluated worksheet '026_Remove_Duplicates_from_Sorted_Array.worksheet.sc' in 2.2s
+2023.06.25 12:36:19 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+Jun 25, 2023 12:36:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7061
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:211 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+            stack.isEmpty
+
+
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:114:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return(false) 
+                    ^^^^^^^^^^^^^
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:144:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return false
+                    ^^^^^^^^^^^^
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:173:9: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+        return false
+        ^^^^^^^^^^^^
+2023.06.25 12:36:23 INFO  no build target found for D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.25 12:36:23 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 4.33s
+2023.06.25 12:36:35 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+[31merror[39m: 088_Merge_Sorted_Array.worksheet.sc:6:17: 
+value && is not a member of Int
+            if (nums1(m - 1) && nums2(n - 1)){
+                ^^^^^^^^^^^^^^^
+[31merror[39m: 088_Merge_Sorted_Array.worksheet.sc:8:17: 
+value += is not a member of Int - did you mean m.!=?
+                m +=1
+                ^^^^
+[31merror[39m: 088_Merge_Sorted_Array.worksheet.sc:12:17: 
+value += is not a member of Int - did you mean n.!=?
+                n +=1 
+                ^^^^
+[31merror[39m: 088_Merge_Sorted_Array.worksheet.sc:21:13: 
+value -= is not a member of Int - did you mean n.!=?
+            n -= 1
+            ^^^^
+2023.06.25 12:36:35 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.24s
+2023.06.25 12:37:47 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+[31merror[39m: 088_Merge_Sorted_Array.worksheet.sc:8:17: 
+value && is not a member of Int
+            if (nums1(m_var - 1) && nums2(n_var - 1)){
+                ^^^^^^^^^^^^^^^^^^^
+[31merror[39m: 088_Merge_Sorted_Array.worksheet.sc:14:17: 
+value += is not a member of Int - did you mean n.!=?
+                n +=1 
+                ^^^^
+2023.06.25 12:37:47 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.21s
+2023.06.25 12:37:52 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+[31merror[39m: 088_Merge_Sorted_Array.worksheet.sc:8:17: 
+value && is not a member of Int
+            if (nums1(m_var - 1) && nums2(n_var - 1)){
+                ^^^^^^^^^^^^^^^^^^^
+2023.06.25 12:37:52 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.14s
+2023.06.25 12:38:01 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+[31merror[39m: 088_Merge_Sorted_Array.worksheet.sc:8:17: 
+Found:    Int
+Required: Boolean
+            if (nums1(m_var - 1) & nums2(n_var - 1)){
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.06.25 12:38:01 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.23s
+2023.06.25 12:38:15 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.25 12:38:15 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.27s
+2023.06.25 12:40:03 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+[31merror[39m: 088_Merge_Sorted_Array.worksheet.sc:39:5: 
+Double definition:
+val m: Int in class MdocApp at line 40 and
+val m: Int in class MdocApp at line 65
+
+val m = 3
+    ^
+[31merror[39m: 088_Merge_Sorted_Array.worksheet.sc:40:5: 
+Double definition:
+val n: Int in class MdocApp at line 48 and
+val n: Int in class MdocApp at line 69
+
+val n = 3
+    ^
+2023.06.25 12:40:04 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.38s
+2023.06.25 12:40:19 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.25 12:40:19 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.39s
+2023.06.25 12:42:01 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.25 12:42:01 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.31s
+2023.06.25 12:44:50 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.25 12:44:50 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.34s
+2023.06.25 12:45:06 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.25 12:45:06 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.38s
+2023.06.25 12:47:08 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.25 12:47:08 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.46s
+2023.06.25 12:47:14 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.25 12:47:15 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.46s
+2023.06.25 12:48:15 WARN  no build target for: D:\Github\LeetCode\088_Merge_Sorted_Array.worksheet.sc
+2023.06.25 12:48:16 INFO  time: evaluated worksheet '088_Merge_Sorted_Array.worksheet.sc' in 0.51s

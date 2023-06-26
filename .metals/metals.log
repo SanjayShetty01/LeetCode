@@ -6214,3 +6214,11 @@ Non local returns are no longer supported; use scala.util.control.NonLocalReturn
                 return(true)
                 ^^^^^^^^^^^^
 2023.06.26 07:32:20 INFO  time: evaluated worksheet '217_Contains_Duplicate.worksheet.sc' in 0.52s
+2023.06.26 07:34:36 WARN  no build target for: D:\Github\LeetCode\136_Single_Number.worksheet.sc
+2023.06.26 07:34:39 INFO  no build target found for D:\Github\LeetCode\136_Single_Number.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.26 07:34:39 INFO  time: evaluated worksheet '136_Single_Number.worksheet.sc' in 3.08s
+2023.06.26 07:35:11 WARN  no build target for: D:\Github\LeetCode\219_Contains_Duplicate_II.worksheet.sc
+2023.06.26 07:35:13 INFO  no build target found for D:\Github\LeetCode\219_Contains_Duplicate_II.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.26 07:35:13 INFO  time: evaluated worksheet '219_Contains_Duplicate_II.worksheet.sc' in 2.46s
+2023.06.26 07:35:28 WARN  no build target for: D:\Github\LeetCode\219_Contains_Duplicate_II.worksheet.sc
+2023.06.26 07:35:28 INFO  time: evaluated worksheet '219_Contains_Duplicate_II.worksheet.sc' in 0.26s

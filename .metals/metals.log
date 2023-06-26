@@ -6237,3 +6237,48 @@ Required: Int
 2023.06.26 09:11:56 INFO  Shutting down server
 2023.06.26 09:11:56 INFO  shutting down Metals
 2023.06.26 09:11:56 INFO  Exiting server
+2023.06.26 17:41:51 INFO  Started: Metals version 0.11.12 in workspace 'D:\Github\LeetCode' for client Visual Studio Code 1.79.2.
+Jun 26, 2023 5:41:51 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 26, 2023 5:41:51 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 26, 2023 5:41:51 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 26, 2023 5:41:51 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Github\LeetCode\.metals\metals (H2 2.1)
+Jun 26, 2023 5:41:51 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.053s)
+Jun 26, 2023 5:41:51 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jun 26, 2023 5:41:51 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.26 17:41:52 INFO  time: initialize in 1.07s
+2023.06.26 17:41:55 WARN  Build server is not auto-connectable.
+2023.06.26 17:41:55 WARN  no build tool detected in workspace 'D:\Github\LeetCode'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.26 17:41:55 WARN  no build target for: D:\Github\LeetCode\219_Contains_Duplicate_II.worksheet.sc
+2023.06.26 17:41:55 WARN  no build target for: D:\Github\LeetCode\268_Missing_Number.worksheet.sc
+2023.06.26 17:42:03 INFO  no build target found for D:\Github\LeetCode\219_Contains_Duplicate_II.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.26 17:42:08 INFO  time: code lens generation in 13s
+2023.06.26 17:42:10 INFO  no build target found for D:\Github\LeetCode\219_Contains_Duplicate_II.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.26 17:42:10 INFO  time: evaluated worksheet '219_Contains_Duplicate_II.worksheet.sc' in 14s
+2023.06.26 19:14:27 WARN  no build target for: D:\Github\LeetCode\217_Contains_Duplicate.worksheet.sc
+Jun 26, 2023 7:14:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+2023.06.26 19:14:28 WARN  no build target for: D:\Github\LeetCode\136_Single_Number.worksheet.sc
+[33mwarning[39m: 217_Contains_Duplicate.worksheet.sc:11:17: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                return(true)
+                ^^^^^^^^^^^^
+2023.06.26 19:14:31 INFO  no build target found for D:\Github\LeetCode\217_Contains_Duplicate.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.26 19:14:31 INFO  time: evaluated worksheet '217_Contains_Duplicate.worksheet.sc' in 3.69s
+2023.06.26 19:14:32 INFO  no build target found for D:\Github\LeetCode\136_Single_Number.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.26 19:14:32 INFO  time: evaluated worksheet '136_Single_Number.worksheet.sc' in 1.68s
+2023.06.26 19:20:42 WARN  no build target for: D:\Github\LeetCode\268_Missing_Number.worksheet.sc
+2023.06.26 19:20:44 INFO  no build target found for D:\Github\LeetCode\268_Missing_Number.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.26 19:20:44 INFO  time: evaluated worksheet '268_Missing_Number.worksheet.sc' in 1.7s
+2023.06.26 19:21:29 WARN  no build target for: D:\Github\LeetCode\268_Missing_Number.worksheet.sc
+2023.06.26 19:21:29 INFO  time: evaluated worksheet '268_Missing_Number.worksheet.sc' in 0.47s
+2023.06.26 19:25:02 WARN  no build target for: D:\Github\LeetCode\268_Missing_Number.worksheet.sc
+2023.06.26 19:25:02 INFO  time: evaluated worksheet '268_Missing_Number.worksheet.sc' in 0.57s
+2023.06.26 19:25:48 WARN  no build target for: D:\Github\LeetCode\268_Missing_Number.worksheet.sc
+2023.06.26 19:25:49 INFO  time: evaluated worksheet '268_Missing_Number.worksheet.sc' in 0.73s

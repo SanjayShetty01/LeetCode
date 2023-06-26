@@ -6222,3 +6222,18 @@ Non local returns are no longer supported; use scala.util.control.NonLocalReturn
 2023.06.26 07:35:13 INFO  time: evaluated worksheet '219_Contains_Duplicate_II.worksheet.sc' in 2.46s
 2023.06.26 07:35:28 WARN  no build target for: D:\Github\LeetCode\219_Contains_Duplicate_II.worksheet.sc
 2023.06.26 07:35:28 INFO  time: evaluated worksheet '219_Contains_Duplicate_II.worksheet.sc' in 0.26s
+2023.06.26 07:36:11 WARN  no build target for: D:\Github\LeetCode\268_Missing_Number.worksheet.sc
+2023.06.26 07:36:13 INFO  no build target found for D:\Github\LeetCode\268_Missing_Number.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.26 07:36:13 INFO  time: evaluated worksheet '268_Missing_Number.worksheet.sc' in 2.04s
+2023.06.26 07:36:16 WARN  no build target for: D:\Github\LeetCode\268_Missing_Number.worksheet.sc
+[31merror[39m: 268_Missing_Number.worksheet.sc:2:48: 
+Found:    Unit
+Required: Int
+    def missingNumber(nums: Array[Int]): Int = {
+                                               ^
+2023.06.26 07:36:16 INFO  time: evaluated worksheet '268_Missing_Number.worksheet.sc' in 0.15s
+2023.06.26 07:36:26 WARN  no build target for: D:\Github\LeetCode\268_Missing_Number.worksheet.sc
+2023.06.26 07:36:26 INFO  time: evaluated worksheet '268_Missing_Number.worksheet.sc' in 0.18s
+2023.06.26 09:11:56 INFO  Shutting down server
+2023.06.26 09:11:56 INFO  shutting down Metals
+2023.06.26 09:11:56 INFO  Exiting server

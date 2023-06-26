@@ -6103,3 +6103,37 @@ No implicit Ordering defined for <error Not found: type T>.
 2023.06.25 22:08:35 INFO  time: evaluated worksheet '169_Majority_Element.worksheet.sc' in 0.33s
 2023.06.25 22:09:25 WARN  no build target for: D:\Github\LeetCode\169_Majority_Element.worksheet.sc
 2023.06.25 22:09:25 INFO  time: evaluated worksheet '169_Majority_Element.worksheet.sc' in 0.33s
+2023.06.25 22:11:55 WARN  no build target for: D:\Github\LeetCode\217_Contains_Duplicate.worksheet.sc
+2023.06.25 22:11:57 INFO  no build target found for D:\Github\LeetCode\217_Contains_Duplicate.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.25 22:11:57 INFO  time: evaluated worksheet '217_Contains_Duplicate.worksheet.sc' in 2.06s
+2023.06.25 22:44:59 WARN  no build target for: D:\Github\LeetCode\217_Contains_Duplicate.worksheet.sc
+2023.06.25 22:44:59 INFO  time: evaluated worksheet '217_Contains_Duplicate.worksheet.sc' in 0.2s
+2023.06.25 22:59:55 WARN  no build target for: D:\Github\LeetCode\020_Valid_Parentheses.worksheet.sc
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:128 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        return(false)
+
+
+[33mwarning[39m: 
+020_Valid_Parentheses.worksheet.sc:211 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+            stack.isEmpty
+
+
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:114:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return(false) 
+                    ^^^^^^^^^^^^^
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:144:21: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+                    return false
+                    ^^^^^^^^^^^^
+[33mwarning[39m: 020_Valid_Parentheses.worksheet.sc:173:9: 
+Non local returns are no longer supported; use scala.util.control.NonLocalReturns instead
+        return false
+        ^^^^^^^^^^^^
+2023.06.25 22:59:57 INFO  time: evaluated worksheet '020_Valid_Parentheses.worksheet.sc' in 1.76s
+2023.06.25 23:00:32 INFO  Shutting down server
+2023.06.25 23:00:32 INFO  shutting down Metals
+2023.06.25 23:00:32 INFO  Exiting server

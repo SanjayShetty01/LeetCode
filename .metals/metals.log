@@ -6282,3 +6282,47 @@ Non local returns are no longer supported; use scala.util.control.NonLocalReturn
 2023.06.26 19:25:02 INFO  time: evaluated worksheet '268_Missing_Number.worksheet.sc' in 0.57s
 2023.06.26 19:25:48 WARN  no build target for: D:\Github\LeetCode\268_Missing_Number.worksheet.sc
 2023.06.26 19:25:49 INFO  time: evaluated worksheet '268_Missing_Number.worksheet.sc' in 0.73s
+2023.06.26 19:38:04 WARN  no build target for: D:\Github\LeetCode\283_Move_Zeroes.worksheet.sc
+2023.06.26 19:38:06 INFO  no build target found for D:\Github\LeetCode\283_Move_Zeroes.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.26 19:38:06 INFO  time: evaluated worksheet '283_Move_Zeroes.worksheet.sc' in 2.1s
+Jun 26, 2023 8:42:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1174
+2023.06.26 20:44:00 WARN  no build target for: D:\Github\LeetCode\283_Move_Zeroes.worksheet.sc
+[31merror[39m: 283_Move_Zeroes.worksheet.sc:13:17: 
+Not found: temp
+                temp = nums(nz)
+                ^^^^
+[31merror[39m: 283_Move_Zeroes.worksheet.sc:15:27: 
+Not found: temp
+                nums(z) = temp
+                          ^^^^
+2023.06.26 20:44:00 INFO  time: evaluated worksheet '283_Move_Zeroes.worksheet.sc' in 0.23s
+2023.06.26 20:44:14 WARN  no build target for: D:\Github\LeetCode\283_Move_Zeroes.worksheet.sc
+2023.06.26 20:44:14 INFO  time: evaluated worksheet '283_Move_Zeroes.worksheet.sc' in 0.25s
+2023.06.26 20:44:44 WARN  no build target for: D:\Github\LeetCode\283_Move_Zeroes.worksheet.sc
+2023.06.26 20:44:44 INFO  time: evaluated worksheet '283_Move_Zeroes.worksheet.sc' in 0.34s
+2023.06.26 20:59:09 WARN  no build target for: D:\Github\LeetCode\349_Intersection_of_Two_Arrays.worksheet.sc
+2023.06.26 20:59:11 INFO  no build target found for D:\Github\LeetCode\349_Intersection_of_Two_Arrays.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.26 20:59:11 INFO  time: evaluated worksheet '349_Intersection_of_Two_Arrays.worksheet.sc' in 1.99s
+2023.06.26 20:59:33 WARN  no build target for: D:\Github\LeetCode\349_Intersection_of_Two_Arrays.worksheet.sc
+2023.06.26 20:59:33 INFO  time: evaluated worksheet '349_Intersection_of_Two_Arrays.worksheet.sc' in 0.2s
+2023.06.26 21:08:26 WARN  no build target for: D:\Github\LeetCode\349_Intersection_of_Two_Arrays.worksheet.sc
+2023.06.26 21:08:26 INFO  time: evaluated worksheet '349_Intersection_of_Two_Arrays.worksheet.sc' in 0.26s
+2023.06.26 21:15:06 WARN  no build target for: D:\Github\LeetCode\350_Intersection_of_Two_Arrays_II.worksheet.sc
+2023.06.26 21:15:07 INFO  no build target found for D:\Github\LeetCode\350_Intersection_of_Two_Arrays_II.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.26 21:15:07 INFO  time: evaluated worksheet '350_Intersection_of_Two_Arrays_II.worksheet.sc' in 1.81s
+2023.06.26 21:15:19 WARN  no build target for: D:\Github\LeetCode\350_Intersection_of_Two_Arrays_II.worksheet.sc
+2023.06.26 21:15:19 INFO  time: evaluated worksheet '350_Intersection_of_Two_Arrays_II.worksheet.sc' in 0.22s
+2023.06.26 21:15:42 WARN  no build target for: D:\Github\LeetCode\350_Intersection_of_Two_Arrays_II.worksheet.sc
+2023.06.26 21:15:42 INFO  time: evaluated worksheet '350_Intersection_of_Two_Arrays_II.worksheet.sc' in 0.2s
+Jun 26, 2023 9:15:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2180
+2023.06.26 21:15:51 WARN  no build target for: D:\Github\LeetCode\349_Intersection_of_Two_Arrays.worksheet.sc
+2023.06.26 21:15:51 INFO  time: evaluated worksheet '349_Intersection_of_Two_Arrays.worksheet.sc' in 0.23s
+2023.06.26 21:19:19 WARN  no build target for: D:\Github\LeetCode\350_Intersection_of_Two_Arrays_II.worksheet.sc
+2023.06.26 21:19:19 INFO  time: evaluated worksheet '350_Intersection_of_Two_Arrays_II.worksheet.sc' in 0.32s
+2023.06.26 21:19:22 WARN  no build target for: D:\Github\LeetCode\349_Intersection_of_Two_Arrays.worksheet.sc
+2023.06.26 21:19:22 INFO  time: evaluated worksheet '349_Intersection_of_Two_Arrays.worksheet.sc' in 0.28s
+2023.06.26 22:13:18 INFO  Shutting down server
+2023.06.26 22:13:18 INFO  shutting down Metals
+2023.06.26 22:13:18 INFO  Exiting server

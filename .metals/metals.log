@@ -6326,3 +6326,657 @@ WARNING: Unmatched cancel notification for request id 2180
 2023.06.26 22:13:18 INFO  Shutting down server
 2023.06.26 22:13:18 INFO  shutting down Metals
 2023.06.26 22:13:18 INFO  Exiting server
+2023.06.27 06:48:02 INFO  Started: Metals version 0.11.12 in workspace 'D:\Github\LeetCode' for client Visual Studio Code 1.79.2.
+Jun 27, 2023 6:48:02 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 27, 2023 6:48:02 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 27, 2023 6:48:02 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 27, 2023 6:48:03 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Github\LeetCode\.metals\metals (H2 2.1)
+Jun 27, 2023 6:48:03 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.042s)
+Jun 27, 2023 6:48:03 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jun 27, 2023 6:48:03 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.27 06:48:03 INFO  time: initialize in 1.17s
+2023.06.27 06:48:07 WARN  Build server is not auto-connectable.
+2023.06.27 06:48:07 WARN  no build tool detected in workspace 'D:\Github\LeetCode'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.27 06:48:07 WARN  no build target for: D:\Github\LeetCode\349_Intersection_of_Two_Arrays.worksheet.sc
+2023.06.27 06:48:25 INFO  no build target found for D:\Github\LeetCode\349_Intersection_of_Two_Arrays.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.27 06:48:30 WARN  thread interrupt: Evaluating Worksheet 349_Intersection_of_Two_Arrays.worksheet.sc
+2023.06.27 06:48:30 INFO  time: evaluated worksheet '349_Intersection_of_Two_Arrays.worksheet.sc' in 23s
+2023.06.27 06:48:31 ERROR worksheet: D:\Github\LeetCode\349_Intersection_of_Two_Arrays.worksheet.sc
+scala.meta.internal.mtags.IndexingExceptions$PathIndexingException: C:\Users\Sanjay\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.2.2\scala3-library_3-3.2.2-sources.jar
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.tryRun(OnDemandSymbolIndex.scala:131)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.addSourceJar(OnDemandSymbolIndex.scala:82)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.$anonfun$new$1(StandaloneSymbolSearch.scala:45)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.<init>(StandaloneSymbolSearch.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch$.apply(StandaloneSymbolSearch.scala:143)
+	at scala.meta.internal.metals.Compilers.$anonfun$restartWorksheetPresentationCompiler$9(Compilers.scala:804)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.Compilers.restartWorksheetPresentationCompiler(Compilers.scala:786)
+	at scala.meta.internal.worksheets.WorksheetProvider.scala$meta$internal$worksheets$WorksheetProvider$$evaluateWorksheet(WorksheetProvider.scala:379)
+	at scala.meta.internal.worksheets.WorksheetProvider$$anon$1.liftedTree1$1(WorksheetProvider.scala:263)
+	at scala.meta.internal.worksheets.WorksheetProvider$$anon$1.run(WorksheetProvider.scala:263)
+
+2023.06.27 06:48:32 INFO  time: code lens generation in 25s
+2023.06.27 06:48:32 INFO  time: code lens generation in 1.51s
+2023.06.27 06:51:24 WARN  no build target for: D:\Github\LeetCode\s.sc
+2023.06.27 06:51:34 INFO  Running List(C:\Users\Sanjay\AppData\Local\Coursier\data\bin\scala-cli.BAT, bsp, D:\Github\LeetCode)
+2023.06.27 06:51:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\LeetCode\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.27 06:51:35 INFO  Scala CLI: Checking https://github.com/coursier/jvm-index/raw/master/index.json
+2023.06.27 06:51:35 INFO  Scala CLI: Checked https://github.com/coursier/jvm-index/raw/master/index.json
+2023.06.27 06:51:35 INFO  Scala CLI: Downloading https://github.com/coursier/jvm-index/raw/master/index.json
+2023.06.27 06:51:35 INFO  Scala CLI: Downloaded https://github.com/coursier/jvm-index/raw/master/index.json
+2023.06.27 06:51:35 INFO  Scala CLI: Downloading https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip
+2023.06.27 06:51:41 INFO  Scala CLI: Still downloading:
+2023.06.27 06:51:41 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (10.33 %, 19496704 / 188690370)
+2023.06.27 06:51:41 INFO  Scala CLI: 
+2023.06.27 06:51:46 INFO  Scala CLI: Still downloading:
+2023.06.27 06:51:46 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (29.73 %, 56098560 / 188690370)
+2023.06.27 06:51:46 INFO  Scala CLI: 
+2023.06.27 06:51:52 INFO  Scala CLI: Still downloading:
+2023.06.27 06:51:52 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (50.07 %, 94469888 / 188690370)
+2023.06.27 06:51:52 INFO  Scala CLI: 
+2023.06.27 06:51:54 ERROR Timeout waiting for 'build/initialize' response
+2023.06.27 06:51:54 WARN  Retrying connection to the build server Scala CLI
+2023.06.27 06:51:54 INFO  Running List(C:\Users\Sanjay\AppData\Local\Coursier\data\bin\scala-cli.BAT, bsp, D:\Github\LeetCode)
+2023.06.27 06:51:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\LeetCode\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.27 06:51:54 INFO  Scala CLI: Downloading https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip
+2023.06.27 06:51:58 INFO  Scala CLI: Still downloading:
+2023.06.27 06:51:59 INFO  Scala CLI: Still downloading:
+2023.06.27 06:51:59 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (0.00 %, 0 / 188690370)
+2023.06.27 06:51:59 INFO  Scala CLI: 
+2023.06.27 06:52:05 INFO  Scala CLI: (watching) Downloaded https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip
+2023.06.27 06:52:14 ERROR Timeout waiting for 'build/initialize' response
+2023.06.27 06:52:14 WARN  Retrying connection to the build server Scala CLI
+2023.06.27 06:52:14 INFO  Running List(C:\Users\Sanjay\AppData\Local\Coursier\data\bin\scala-cli.BAT, bsp, D:\Github\LeetCode)
+2023.06.27 06:52:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\LeetCode\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.27 06:52:27 INFO  Scala CLI: Starting compilation server
+2023.06.27 06:52:27 INFO  Scala CLI: Starting compilation server
+2023.06.27 06:52:27 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.6-sc-8/bloop-frontend_2.12-1.5.6-sc-8.pom
+2023.06.27 06:52:29 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.6-sc-8/bloop-frontend_2.12-1.5.6-sc-8.pom
+2023.06.27 06:52:29 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.pom
+2023.06.27 06:52:29 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.6-sc-8/bloop-backend_2.12-1.5.6-sc-8.pom
+2023.06.27 06:52:29 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/3.0.7/scala-debug-adapter_2.12-3.0.7.pom
+2023.06.27 06:52:29 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.6/logback-classic-1.4.6.pom
+2023.06.27 06:52:29 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.pom
+2023.06.27 06:52:29 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.6-sc-8/bloop-backend_2.12-1.5.6-sc-8.pom
+2023.06.27 06:52:29 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.6/logback-classic-1.4.6.pom
+2023.06.27 06:52:29 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/3.0.7/scala-debug-adapter_2.12-3.0.7.pom
+2023.06.27 06:52:29 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.4.6/logback-parent-1.4.6.pom
+2023.06.27 06:52:30 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.4.6/logback-parent-1.4.6.pom
+2023.06.27 06:52:30 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+12/com-microsoft-java-debug-core-0.34.0+12.pom
+2023.06.27 06:52:30 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.6/logback-core-1.4.6.pom
+2023.06.27 06:52:30 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.5/asm-util-9.5.pom
+2023.06.27 06:52:30 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/zipkin/brave/brave/5.15.0/brave-5.15.0.pom
+2023.06.27 06:52:30 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.3.7/scalaz-core_2.12-7.3.7.pom
+2023.06.27 06:52:30 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/zeroturnaround/zt-zip/1.15/zt-zip-1.15.pom
+2023.06.27 06:52:30 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.6/logback-core-1.4.6.pom
+2023.06.27 06:52:30 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.6-sc-8/bloop-shared_2.12-1.5.6-sc-8.pom
+2023.06.27 06:52:30 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+12/com-microsoft-java-debug-core-0.34.0+12.pom
+2023.06.27 06:52:30 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/9.5/asm-9.5.pom
+2023.06.27 06:52:30 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.5/asm-util-9.5.pom
+2023.06.27 06:52:30 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.4/slf4j-api-2.0.4.pom
+2023.06.27 06:52:30 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm/9.5/asm-9.5.pom
+2023.06.27 06:52:30 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.pom
+2023.06.27 06:52:30 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/zipkin/brave/brave/5.15.0/brave-5.15.0.pom
+2023.06.27 06:52:30 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.6-sc-8/bloop-shared_2.12-1.5.6-sc-8.pom
+2023.06.27 06:52:30 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.pom
+2023.06.27 06:52:31 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/zeroturnaround/zt-zip/1.15/zt-zip-1.15.pom
+2023.06.27 06:52:31 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.3.7/scalaz-core_2.12-7.3.7.pom
+2023.06.27 06:52:31 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.4/slf4j-api-2.0.4.pom
+2023.06.27 06:52:31 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/2.0.4/slf4j-parent-2.0.4.pom
+2023.06.27 06:52:31 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/zipkin/brave/brave-parent/5.15.0/brave-parent-5.15.0.pom
+2023.06.27 06:52:31 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/2.0.4/slf4j-parent-2.0.4.pom
+2023.06.27 06:52:31 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/io/zipkin/brave/brave-parent/5.15.0/brave-parent-5.15.0.pom
+2023.06.27 06:52:31 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.pom
+2023.06.27 06:52:31 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.pom
+2023.06.27 06:52:31 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.pom
+2023.06.27 06:52:31 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.4.0/jna-platform-4.4.0.pom
+2023.06.27 06:52:31 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.pom
+2023.06.27 06:52:31 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.2/jna-4.5.2.pom
+2023.06.27 06:52:32 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.pom
+2023.06.27 06:52:32 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.pom
+2023.06.27 06:52:32 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.pom
+2023.06.27 06:52:32 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.4.0/jna-platform-4.4.0.pom
+2023.06.27 06:52:32 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.2/jna-4.5.2.pom
+2023.06.27 06:52:32 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.pom
+2023.06.27 06:52:32 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.20.0/log4j-2.20.0.pom
+2023.06.27 06:52:34 ERROR Timeout waiting for 'build/initialize' response
+2023.06.27 06:52:34 WARN  Retrying connection to the build server Scala CLI
+2023.06.27 06:52:34 INFO  Running List(C:\Users\Sanjay\AppData\Local\Coursier\data\bin\scala-cli.BAT, bsp, D:\Github\LeetCode)
+2023.06.27 06:52:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\LeetCode\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.27 06:52:34 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.20.0/log4j-2.20.0.pom
+2023.06.27 06:52:34 INFO  Scala CLI: Starting compilation server
+2023.06.27 06:52:34 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/fabric8/kubernetes-client-bom/5.12.2/kubernetes-client-bom-5.12.2.pom
+2023.06.27 06:52:34 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-bom/9.4.50.v20221201/jetty-bom-9.4.50.v20221201.pom
+2023.06.27 06:52:34 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/junit/junit-bom/5.9.1/junit-bom-5.9.1.pom
+2023.06.27 06:52:34 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-bom/2.20.0/log4j-bom-2.20.0.pom
+2023.06.27 06:52:34 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/codehaus/groovy/groovy-bom/3.0.14/groovy-bom-3.0.14.pom
+2023.06.27 06:52:36 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-bom/9.4.50.v20221201/jetty-bom-9.4.50.v20221201.pom
+2023.06.27 06:52:36 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/junit/junit-bom/5.9.1/junit-bom-5.9.1.pom
+2023.06.27 06:52:36 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-bom/2.20.0/log4j-bom-2.20.0.pom
+2023.06.27 06:52:36 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/io/fabric8/kubernetes-client-bom/5.12.2/kubernetes-client-bom-5.12.2.pom
+2023.06.27 06:52:36 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/codehaus/groovy/groovy-bom/3.0.14/groovy-bom-3.0.14.pom
+2023.06.27 06:52:36 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/eclipse/ee4j/project/1.0.6/project-1.0.6.pom
+2023.06.27 06:52:36 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/eclipse/ee4j/project/1.0.6/project-1.0.6.pom
+2023.06.27 06:52:36 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.8.0/util-cache_2.12-1.8.0.pom
+2023.06.27 06:52:36 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.8.0/util-logging_2.12-1.8.0.pom
+2023.06.27 06:52:36 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.8.0/util-position_2.12-1.8.0.pom
+2023.06.27 06:52:36 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.pom
+2023.06.27 06:52:36 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0.pom
+2023.06.27 06:52:36 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.8.0/util-cache_2.12-1.8.0.pom
+2023.06.27 06:52:36 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.8.0/util-logging_2.12-1.8.0.pom
+2023.06.27 06:52:37 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.8.0/util-position_2.12-1.8.0.pom
+2023.06.27 06:52:37 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.pom
+2023.06.27 06:52:37 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0.pom
+2023.06.27 06:52:37 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.8.0/util-control_2.12-1.8.0.pom
+2023.06.27 06:52:37 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.8.0/util-relation_2.12-1.8.0.pom
+2023.06.27 06:52:37 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.8.0/collections_2.12-1.8.0.pom
+2023.06.27 06:52:37 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.8.0/core-macros_2.12-1.8.0.pom
+2023.06.27 06:52:37 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.8.0/util-interface-1.8.0.pom
+2023.06.27 06:52:37 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.8.0/util-control_2.12-1.8.0.pom
+2023.06.27 06:52:37 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.8.0/util-relation_2.12-1.8.0.pom
+2023.06.27 06:52:37 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.8.0/collections_2.12-1.8.0.pom
+2023.06.27 06:52:37 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.8.0/core-macros_2.12-1.8.0.pom
+2023.06.27 06:52:37 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.8.0/util-interface-1.8.0.pom
+2023.06.27 06:52:38 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.8.0/util-interface-1.8.0.jar
+2023.06.27 06:52:38 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar
+2023.06.27 06:52:38 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.8.0/util-cache_2.12-1.8.0.jar
+2023.06.27 06:52:38 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar
+2023.06.27 06:52:38 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.8.0/core-macros_2.12-1.8.0.jar
+2023.06.27 06:52:38 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/zeroturnaround/zt-zip/1.15/zt-zip-1.15.jar
+2023.06.27 06:52:38 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.8.0/util-interface-1.8.0.jar
+2023.06.27 06:52:38 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar
+2023.06.27 06:52:38 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar
+2023.06.27 06:52:38 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.8.0/util-logging_2.12-1.8.0.jar
+2023.06.27 06:52:38 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/zeroturnaround/zt-zip/1.15/zt-zip-1.15.jar
+2023.06.27 06:52:38 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.8.0/util-relation_2.12-1.8.0.jar
+2023.06.27 06:52:38 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.8.0/core-macros_2.12-1.8.0.jar
+2023.06.27 06:52:38 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.8.0/util-control_2.12-1.8.0.jar
+2023.06.27 06:52:39 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar
+2023.06.27 06:52:39 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar
+2023.06.27 06:52:39 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.8.0/util-relation_2.12-1.8.0.jar
+2023.06.27 06:52:39 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.8.0/util-position_2.12-1.8.0.jar
+2023.06.27 06:52:39 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar
+2023.06.27 06:52:39 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/9.5/asm-9.5.jar
+2023.06.27 06:52:39 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.8.0/util-control_2.12-1.8.0.jar
+2023.06.27 06:52:39 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar
+2023.06.27 06:52:39 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar
+2023.06.27 06:52:39 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+12/com-microsoft-java-debug-core-0.34.0+12.jar
+2023.06.27 06:52:39 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.8.0/util-position_2.12-1.8.0.jar
+2023.06.27 06:52:39 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.6-sc-8/bloop-frontend_2.12-1.5.6-sc-8.jar
+2023.06.27 06:52:39 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm/9.5/asm-9.5.jar
+2023.06.27 06:52:39 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.8.0/collections_2.12-1.8.0.jar
+2023.06.27 06:52:39 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.8.0/util-logging_2.12-1.8.0.jar
+2023.06.27 06:52:39 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.3.7/scalaz-core_2.12-7.3.7.jar
+2023.06.27 06:52:40 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.8.0/util-cache_2.12-1.8.0.jar
+2023.06.27 06:52:40 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.6/logback-core-1.4.6.jar
+2023.06.27 06:52:40 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar
+2023.06.27 06:52:40 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.jar
+2023.06.27 06:52:40 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.jar
+2023.06.27 06:52:40 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.6-sc-8/bloop-shared_2.12-1.5.6-sc-8.jar
+2023.06.27 06:52:40 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.6-sc-8/bloop-shared_2.12-1.5.6-sc-8.jar
+2023.06.27 06:52:40 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/3.0.7/scala-debug-adapter_2.12-3.0.7.jar
+2023.06.27 06:52:40 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+12/com-microsoft-java-debug-core-0.34.0+12.jar
+2023.06.27 06:52:40 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.6/logback-classic-1.4.6.jar
+2023.06.27 06:52:40 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.8.0/collections_2.12-1.8.0.jar
+2023.06.27 06:52:40 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/zipkin/brave/brave/5.15.0/brave-5.15.0.jar
+2023.06.27 06:52:40 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/zipkin/brave/brave/5.15.0/brave-5.15.0.jar
+2023.06.27 06:52:40 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar
+2023.06.27 06:52:40 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.6/logback-core-1.4.6.jar
+2023.06.27 06:52:40 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.jar
+2023.06.27 06:52:40 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.jar
+2023.06.27 06:52:40 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.6-sc-8/bloop-backend_2.12-1.5.6-sc-8.jar
+2023.06.27 06:52:42 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.6/logback-classic-1.4.6.jar
+2023.06.27 06:52:42 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.6-sc-8/bloop-frontend_2.12-1.5.6-sc-8.jar
+2023.06.27 06:52:42 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+12/com-microsoft-java-debug-core-0.34.0+12.jar.sha1
+2023.06.27 06:52:42 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.jar.sha1
+2023.06.27 06:52:42 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+12/com-microsoft-java-debug-core-0.34.0+12.jar.sha1
+2023.06.27 06:52:42 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.jar.sha1
+2023.06.27 06:52:45 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.6-sc-8/bloop-backend_2.12-1.5.6-sc-8.jar
+2023.06.27 06:52:49 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/3.0.7/scala-debug-adapter_2.12-3.0.7.jar
+2023.06.27 06:52:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar
+2023.06.27 06:52:54 ERROR Timeout waiting for 'build/initialize' response
+2023.06.27 06:52:54 WARN  Retrying connection to the build server Scala CLI
+2023.06.27 06:52:54 INFO  Running List(C:\Users\Sanjay\AppData\Local\Coursier\data\bin\scala-cli.BAT, bsp, D:\Github\LeetCode)
+2023.06.27 06:52:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\LeetCode\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.27 06:52:54 INFO  Scala CLI: Still downloading:
+2023.06.27 06:52:55 INFO  Scala CLI: Starting compilation server
+2023.06.27 06:52:55 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.3.7/scalaz-core_2.12-7.3.7.jar
+2023.06.27 06:53:01 INFO  Scala CLI: Still downloading:
+2023.06.27 06:53:01 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.3.7/scalaz-core_2.12-7.3.7.jar (0.00 %, 0 / 9831992)
+2023.06.27 06:53:01 INFO  Scala CLI: 
+2023.06.27 06:53:06 INFO  Scala CLI: Still downloading:
+2023.06.27 06:53:06 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.3.7/scalaz-core_2.12-7.3.7.jar (0.00 %, 0 / 9831992)
+2023.06.27 06:53:06 INFO  Scala CLI: 
+2023.06.27 06:53:08 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.3.7/scalaz-core_2.12-7.3.7.jar
+2023.06.27 06:53:14 ERROR Timeout waiting for 'build/initialize' response
+2023.06.27 06:53:14 WARN  Retrying connection to the build server Scala CLI
+2023.06.27 06:53:14 INFO  Running List(C:\Users\Sanjay\AppData\Local\Coursier\data\bin\scala-cli.BAT, bsp, D:\Github\LeetCode)
+2023.06.27 06:53:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\LeetCode\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.27 06:53:15 INFO  Scala CLI: Error: java.nio.file.AccessDeniedException: C:\Users\Sanjay\AppData\Local\ScalaCli\cache\.bsp-sockets.tmp-30192 -> C:\Users\Sanjay\AppData\Local\ScalaCli\cache\bsp-sockets
+2023.06.27 06:53:24 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar
+2023.06.27 06:53:26 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar
+2023.06.27 06:53:27 INFO  Connected to Scala CLI server v1.0.0-RC2
+2023.06.27 06:53:29 INFO  compiling project_bd2c96d2de (21 scala sources)
+2023.06.27 06:53:29 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.0-RC2' (since 11.818s)
+2023.06.27 06:53:29 INFO  compiling project_bd2c96d2de (21 scala sources)
+2023.06.27 06:53:35 ERROR issues while parsing: C:\Users\Sanjay\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.2.2\scala3-library_3-3.2.2-sources.jar
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.FileChannelImpl.ensureOpen(FileChannelImpl.java:150)
+	at sun.nio.ch.FileChannelImpl.position(FileChannelImpl.java:349)
+	at sun.nio.ch.FileChannelImpl.position(FileChannelImpl.java:52)
+	at jdk.nio.zipfs.ZipFileSystem.readFullyAt(ZipFileSystem.java:970)
+	at jdk.nio.zipfs.ZipFileSystem.readFullyAt(ZipFileSystem.java:963)
+	at jdk.nio.zipfs.ZipFileSystem$EntryInputStream.initDataPos(ZipFileSystem.java:1676)
+	at jdk.nio.zipfs.ZipFileSystem$EntryInputStream.read(ZipFileSystem.java:1610)
+	at jdk.nio.zipfs.ZipFileSystem$5.fill(ZipFileSystem.java:1555)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:159)
+	at java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at jdk.nio.zipfs.ZipFileSystem$3.read(ZipFileSystem.java:677)
+	at sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:65)
+	at sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:107)
+	at sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:101)
+	at java.nio.file.Files.read(Files.java:3159)
+	at java.nio.file.Files.readAllBytes(Files.java:3213)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.SymbolIndexBucket.indexSource(SymbolIndexBucket.scala:126)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addSourceFile(SymbolIndexBucket.scala:105)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$addSourceJar$2(SymbolIndexBucket.scala:67)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$addSourceJar$1(SymbolIndexBucket.scala:65)
+	at scala.meta.internal.io.PlatformFileIO$.withJarFileSystem(PlatformFileIO.scala:87)
+	at scala.meta.internal.io.FileIO$.withJarFileSystem(FileIO.scala:44)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addSourceJar(SymbolIndexBucket.scala:63)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$addSourceJar$2(OnDemandSymbolIndex.scala:83)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.tryRun(OnDemandSymbolIndex.scala:128)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.addSourceJar(OnDemandSymbolIndex.scala:82)
+	at scala.meta.internal.metals.Indexer.addSourceJarSymbols(Indexer.scala:593)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$5(Indexer.scala:448)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:575)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:573)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:933)
+	at scala.collection.IterableOps$WithFilter.foreach(Iterable.scala:903)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$1(Indexer.scala:439)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$1$adapted(Indexer.scala:438)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:575)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:573)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:933)
+	at scala.meta.internal.metals.Indexer.indexDependencySources(Indexer.scala:438)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$22(Indexer.scala:358)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$21(Indexer.scala:351)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$21$adapted(Indexer.scala:347)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:347)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:147)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:147)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2023.06.27 06:53:37 INFO  time: indexed workspace in 9.41s
+2023.06.27 06:54:04 INFO  time: compiled project_bd2c96d2de in 35s
+2023.06.27 06:54:06 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.0-RC2' (since 43.361s)
+2023.06.27 06:54:06 INFO  Deduplicating compilation of project_bd2c96d2de-test from bsp client 'scala-cli 1.0.0-RC2' (since 43.419s)
+2023.06.27 06:54:14 INFO  Scala CLI started
+2023.06.27 06:55:05 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.0-RC2' (since 1m 42.433s)
+2023.06.27 06:55:07 ERROR Unexpected error when compiling project_bd2c96d2de: 'D:\Github\LeetCode\.scala-build\.bloop\project_bd2c96d2de\bloop-internal-classes\main-lBx46ncfReiSoajL4NO9vw==\088_Merge_Sorted_Array$u002Eworksheet$package.class (The process cannot access the file because it is being used by another process)'
+2023.06.27 06:55:07 ERROR Unexpected error when compiling project_bd2c96d2de: 'D:\Github\LeetCode\.scala-build\.bloop\project_bd2c96d2de\bloop-internal-classes\main-lBx46ncfReiSoajL4NO9vw==\088_Merge_Sorted_Array$u002Eworksheet$package.class (The process cannot access the file because it is being used by another process)'
+2023.06.27 06:55:09 INFO  time: evaluated worksheet '349_Intersection_of_Two_Arrays.worksheet.sc' in 12s
+2023.06.27 06:55:17 INFO  no build target found for D:\Github\LeetCode\349_Intersection_of_Two_Arrays.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.27 06:55:17 INFO  time: code lens generation in 9.52s
+2023.06.27 06:55:17 INFO  time: code lens generation in 1.19s
+2023.06.27 06:55:18 INFO  time: code lens generation in 7.63s
+2023.06.27 06:55:19 INFO  time: evaluated worksheet '349_Intersection_of_Two_Arrays.worksheet.sc' in 10s
+2023.06.27 06:55:20 INFO  time: indexed workspace in 11s
+2023.06.27 06:55:20 ERROR No project associated with Uri(file:/D:/Github/LeetCode/.scala-build/?id=project_bd2c96d2de)
+2023.06.27 06:55:20 ERROR No project associated with Uri(file:/D:/Github/LeetCode/.scala-build/?id=project_bd2c96d2de)
+2023.06.27 06:55:20 ERROR No project associated with Uri(file:/D:/Github/LeetCode/.scala-build/?id=project_bd2c96d2de)
+2023.06.27 06:55:20 INFO  Scala CLI: Jun 27, 2023 6:55:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+2023.06.27 06:55:20 INFO  Scala CLI: SEVERE: Internal error: org.eclipse.lsp4j.jsonrpc.MessageIssueException: Message could not be parsed.
+2023.06.27 06:55:20 INFO  Scala CLI: java.util.concurrent.CompletionException: org.eclipse.lsp4j.jsonrpc.MessageIssueException: Message could not be parsed.
+2023.06.27 06:55:20 INFO  Scala CLI: 	at java.base@17.0.6/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+2023.06.27 06:55:20 INFO  Scala CLI: 	at java.base@17.0.6/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+2023.06.27 06:55:20 INFO  Scala CLI: 	at java.base@17.0.6/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+2023.06.27 06:55:20 INFO  Scala CLI: 	at java.base@17.0.6/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+2023.06.27 06:55:20 INFO  Scala CLI: 	at java.base@17.0.6/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+2023.06.27 06:55:20 INFO  Scala CLI: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponseIssues(RemoteEndpoint.java:358)
+2023.06.27 06:55:20 INFO  Scala CLI: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handle(RemoteEndpoint.java:317)
+2023.06.27 06:55:20 INFO  Scala CLI: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:198)
+2023.06.27 06:55:20 INFO  scala-cli should support `buildTarget/jvmRunEnvironment`, but it fails.
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2023.06.27 06:55:20 INFO  Scala CLI: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+2023.06.27 06:55:20 INFO  Scala CLI: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+2023.06.27 06:55:20 INFO  Scala CLI: 	at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+2023.06.27 06:55:20 INFO  Scala CLI: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2023.06.27 06:55:20 INFO  Scala CLI: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2023.06.27 06:55:20 INFO  Scala CLI: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2023.06.27 06:55:20 INFO  Scala CLI: 	at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+2023.06.27 06:55:20 INFO  Scala CLI: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)
+2023.06.27 06:55:20 INFO  Scala CLI: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:178)
+2023.06.27 06:55:20 INFO  Scala CLI: Caused by: org.eclipse.lsp4j.jsonrpc.MessageIssueException: Message could not be parsed.
+2023.06.27 06:55:20 INFO  Scala CLI: 	... 12 more
+2023.06.27 06:55:20 INFO  Scala CLI: 
+2023.06.27 06:55:22 INFO  Scala CLI: Jun 27, 2023 6:55:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+2023.06.27 06:55:22 INFO  Scala CLI: SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+2023.06.27 06:55:22 INFO  Scala CLI: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+2023.06.27 06:55:22 INFO  Failed to run request with params WrappedSourcesResult
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2023.06.27 06:55:22 INFO  Scala CLI: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2023.06.27 06:55:22 ERROR Error re-importing Scala CLI build
+scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: WrappedSourcesResult
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$9(BuildServerConnection.scala:391)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:391)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:366)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2023.06.27 06:55:22 INFO  Scala CLI: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:178)
+2023.06.27 06:55:22 INFO  Scala CLI: Caused by: java.lang.reflect.InvocationTargetException
+2023.06.27 06:55:22 INFO  Scala CLI: 	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+2023.06.27 06:55:22 INFO  Scala CLI: 	... 13 more
+2023.06.27 06:55:22 INFO  Scala CLI: Caused by: java.nio.file.NoSuchFileException: D:\Github\LeetCode\.scala-build\project_bd2c96d2de\src_generated\main\001_two_sums.worksheet.scala
+2023.06.27 06:55:22 INFO  Scala CLI: 	at java.base@17.0.6/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at java.base@17.0.6/java.nio.file.Files.newByteChannel(Files.java:380)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at java.base@17.0.6/java.nio.file.Files.newByteChannel(Files.java:432)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at java.base@17.0.6/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at java.base@17.0.6/java.nio.file.Files.newInputStream(Files.java:160)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at os.Path.getInputStream(Path.scala:498)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at os.read$bytes$.apply(ReadWriteOps.scala:272)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at os.read$.apply(ReadWriteOps.scala:229)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at os.read$.apply(ReadWriteOps.scala:227)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at scala.build.bsp.BspServer.$anonfun$16$$anonfun$2(BspServer.scala:280)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at scala.collection.immutable.List.map(List.scala:246)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at scala.collection.immutable.List.map(List.scala:79)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at scala.build.bsp.BspServer.$anonfun$16(BspServer.scala:283)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at scala.collection.immutable.List.flatMap(List.scala:293)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at scala.collection.immutable.List.flatMap(List.scala:79)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at scala.build.bsp.BspServer.sourcesItemOpt$1$$anonfun$1(BspServer.scala:284)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at scala.Option.map(Option.scala:242)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at scala.build.bsp.BspServer.sourcesItemOpt$1(BspServer.scala:286)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at scala.build.bsp.BspServer.$anonfun$17(BspServer.scala:288)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at scala.collection.immutable.List.flatMap(List.scala:293)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at scala.collection.immutable.List.flatMap(List.scala:79)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at scala.build.bsp.BspServer.buildTargetWrappedSources(BspServer.scala:288)
+2023.06.27 06:55:22 INFO  Scala CLI: 	at scala.build.bsp.BuildServerProxy.buildTargetWrappedSources(BuildServerProxy.scala:81)
+2023.06.27 06:55:22 INFO  Scala CLI: 	... 15 more
+2023.06.27 06:55:22 INFO  Scala CLI: 
+2023.06.27 06:55:24 INFO  compiling project_bd2c96d2de (20 scala sources)
+2023.06.27 06:55:38 INFO  time: compiled project_bd2c96d2de in 14s
+2023.06.27 06:55:44 INFO  time: indexed workspace in 6.21s
+2023.06.27 06:55:50 INFO  time: evaluated worksheet '349_Intersection_of_Two_Arrays.worksheet.sc' in 6.76s
+2023.06.27 06:56:14 INFO  Shutting down server
+2023.06.27 06:56:14 INFO  shutting down Metals
+2023.06.27 06:56:15 INFO  Shut down connection with build server.
+2023.06.27 06:56:15 INFO  Scala CLI: Jun 27, 2023 6:56:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2023.06.27 06:56:15 INFO  Cancelling compilation on scala-cli server
+2023.06.27 06:56:14 INFO  Exiting server
+2023.06.27 09:29:56 INFO  Started: Metals version 0.11.12 in workspace 'D:\Github\LeetCode' for client Visual Studio Code 1.79.2.
+Jun 27, 2023 9:29:56 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 27, 2023 9:29:56 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 27, 2023 9:29:56 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 27, 2023 9:29:56 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Github\LeetCode\.metals\metals (H2 2.1)
+Jun 27, 2023 9:29:56 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.034s)
+Jun 27, 2023 9:29:56 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jun 27, 2023 9:29:56 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.27 09:29:56 INFO  time: initialize in 0.87s
+2023.06.27 09:29:58 WARN  Build server is not auto-connectable.
+2023.06.27 09:29:58 WARN  no build tool detected in workspace 'D:\Github\LeetCode'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.27 09:29:58 WARN  no build target for: D:\Github\LeetCode\349_Intersection_of_Two_Arrays.worksheet.sc
+2023.06.27 09:30:03 INFO  no build target found for D:\Github\LeetCode\349_Intersection_of_Two_Arrays.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.27 09:30:06 INFO  no build target found for D:\Github\LeetCode\349_Intersection_of_Two_Arrays.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.27 09:30:06 INFO  time: evaluated worksheet '349_Intersection_of_Two_Arrays.worksheet.sc' in 7.54s
+2023.06.27 09:30:06 INFO  time: code lens generation in 7.5s
+2023.06.27 09:30:06 INFO  time: code lens generation in 7.74s
+2023.06.27 09:30:19 INFO  Shutting down server
+2023.06.27 09:30:19 INFO  shutting down Metals
+2023.06.27 09:30:19 INFO  Exiting server
+2023.06.27 18:37:43 INFO  Started: Metals version 0.11.12 in workspace 'D:\Github\LeetCode' for client Visual Studio Code 1.79.2.
+Jun 27, 2023 6:37:43 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 27, 2023 6:37:43 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 27, 2023 6:37:43 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 27, 2023 6:37:43 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Github\LeetCode\.metals\metals (H2 2.1)
+Jun 27, 2023 6:37:43 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.047s)
+Jun 27, 2023 6:37:43 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jun 27, 2023 6:37:43 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.27 18:37:44 INFO  time: initialize in 0.94s
+2023.06.27 18:37:47 WARN  Build server is not auto-connectable.
+2023.06.27 18:37:47 WARN  no build tool detected in workspace 'D:\Github\LeetCode'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.27 18:37:47 WARN  no build target for: D:\Github\LeetCode\349_Intersection_of_Two_Arrays.worksheet.sc
+2023.06.27 18:37:53 INFO  no build target found for D:\Github\LeetCode\349_Intersection_of_Two_Arrays.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.27 18:37:57 INFO  time: code lens generation in 10s
+2023.06.27 18:37:57 INFO  time: code lens generation in 10s
+2023.06.27 18:37:59 INFO  no build target found for D:\Github\LeetCode\349_Intersection_of_Two_Arrays.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.27 18:37:59 INFO  time: evaluated worksheet '349_Intersection_of_Two_Arrays.worksheet.sc' in 12s
+2023.06.27 18:57:33 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+2023.06.27 18:57:35 INFO  no build target found for D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.27 18:57:35 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 2.02s
+2023.06.27 18:57:45 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+2023.06.27 18:57:46 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 0.48s
+2023.06.27 18:57:50 INFO  Shutting down server
+2023.06.27 18:57:50 INFO  shutting down Metals
+2023.06.27 18:57:50 INFO  Exiting server
+2023.06.28 07:02:56 INFO  Started: Metals version 0.11.12 in workspace 'D:\Github\LeetCode' for client Visual Studio Code 1.79.2.
+Jun 28, 2023 7:02:56 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 28, 2023 7:02:56 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 28, 2023 7:02:56 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 28, 2023 7:02:57 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Github\LeetCode\.metals\metals (H2 2.1)
+Jun 28, 2023 7:02:57 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.074s)
+Jun 28, 2023 7:02:57 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jun 28, 2023 7:02:57 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.28 07:02:58 INFO  time: initialize in 2.27s
+2023.06.28 07:03:04 WARN  Build server is not auto-connectable.
+2023.06.28 07:03:04 WARN  no build tool detected in workspace 'D:\Github\LeetCode'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.28 07:03:04 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+2023.06.28 07:03:26 INFO  no build target found for D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.28 07:03:35 INFO  time: code lens generation in 30s
+2023.06.28 07:03:35 INFO  time: code lens generation in 10s
+2023.06.28 07:03:40 INFO  no build target found for D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.28 07:03:40 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 35s
+2023.06.28 07:52:36 INFO  Shutting down server
+2023.06.28 07:52:36 INFO  shutting down Metals
+2023.06.28 07:52:36 INFO  Exiting server
+2023.06.29 07:20:50 INFO  Started: Metals version 0.11.12 in workspace 'D:\Github\LeetCode' for client Visual Studio Code 1.79.2.
+Jun 29, 2023 7:20:50 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 29, 2023 7:20:50 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 29, 2023 7:20:50 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 29, 2023 7:20:51 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Github\LeetCode\.metals\metals (H2 2.1)
+Jun 29, 2023 7:20:51 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.089s)
+Jun 29, 2023 7:20:51 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jun 29, 2023 7:20:51 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.29 07:20:51 INFO  time: initialize in 1.38s
+2023.06.29 07:20:55 WARN  Build server is not auto-connectable.
+2023.06.29 07:20:55 WARN  no build tool detected in workspace 'D:\Github\LeetCode'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.29 07:20:55 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+2023.06.29 07:21:09 INFO  no build target found for D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.29 07:21:16 INFO  time: code lens generation in 21s
+2023.06.29 07:21:16 INFO  time: code lens generation in 21s
+2023.06.29 07:21:18 INFO  no build target found for D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.29 07:21:18 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 23s
+2023.06.29 10:48:19 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+2023.06.29 10:48:20 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 1.11s
+2023.06.29 10:48:42 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+2023.06.29 10:48:42 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 0.67s
+2023.06.29 10:48:55 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+2023.06.29 10:48:55 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 0.76s
+2023.06.29 10:49:09 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+[31merror[39m: 448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc:10:17: identifier expected but _ found
+a.filter(_ > 0)._+ 1
+                ^
+2023.06.29 10:49:10 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 0.41s
+2023.06.29 10:49:18 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+[31merror[39m: 448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc:10:1: 
+Only function types can be followed by _ but the current expression has type List[Int]
+a.filter(_ > 0)_+ 1
+^^^^^^^^^^^^^^^^
+2023.06.29 10:49:19 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 0.33s
+2023.06.29 10:50:04 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+2023.06.29 10:50:05 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 0.62s
+Jun 29, 2023 10:51:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 533
+2023.06.29 10:52:57 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+[31merror[39m: 448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc:9:1: 
+Not found: b
+b = Array(4,3,2,7,8,2,3,1)
+^
+[31merror[39m: 448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc:11:11: 
+Not found: b
+for (i <- b){
+          ^
+2023.06.29 10:52:57 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 0.29s
+2023.06.29 10:53:05 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+[31merror[39m: 448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc:18:5: 
+return outside method definition
+    return(b)
+    ^^^^^^^^^
+2023.06.29 10:53:05 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 0.37s
+2023.06.29 10:53:12 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+2023.06.29 10:53:12 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 0.79s
+2023.06.29 10:53:17 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+2023.06.29 10:53:18 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 0.69s
+2023.06.29 10:53:28 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+2023.06.29 10:53:28 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 0.68s
+2023.06.29 10:53:38 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+2023.06.29 10:53:39 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 0.66s
+2023.06.29 10:54:24 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+2023.06.29 10:54:25 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 0.74s
+2023.06.29 10:54:29 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+2023.06.29 10:54:30 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 0.59s
+2023.06.29 10:59:57 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+2023.06.29 10:59:58 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 0.82s
+2023.06.29 11:00:21 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+[31merror[39m: 448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc:28:5: 
+Double definition:
+val numbers: List[Int] in class MdocApp at line 36 and
+val numbers: List[Int] in class MdocApp at line 49
+
+val numbers: List[Int] = List(-2, 3, 0, 5, -1, 4, 0, 2)
+    ^
+[31merror[39m: 448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc:29:5: 
+Double definition:
+val positions: List[Int] in class MdocApp at line 40 and
+val positions: List[Int] in class MdocApp at line 53
+
+val positions: List[Int] = numbers.zipWithIndex.filter { case (value, _) => value > 0 }.map { case (_, index) => index }
+    ^
+2023.06.29 11:00:21 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 0.43s
+2023.06.29 11:01:57 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+2023.06.29 11:01:57 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 0.74s
+2023.06.29 11:02:15 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+[31merror[39m: 448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc:23:85: 
+expression expected but unindent found
+b.zipWithIndex.collect({case (value, index) if value > 0 => index }).map(_+1)toList
+                                                                                    
+2023.06.29 11:02:16 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 0.29s
+2023.06.29 11:02:20 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+2023.06.29 11:02:21 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 0.76s
+2023.06.29 11:02:50 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+2023.06.29 11:02:50 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 0.77s
+2023.06.29 11:02:56 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+2023.06.29 11:02:57 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 0.72s
+2023.06.29 11:05:39 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+[31merror[39m: 448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc:3:9: 
+Found:    Unit
+Required: List[Int]
+        for (i <- nums){
+        ^
+2023.06.29 11:05:39 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 0.38s
+2023.06.29 11:06:01 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+2023.06.29 11:06:01 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 0.63s
+2023.06.29 11:06:39 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+2023.06.29 11:06:40 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 0.76s
+2023.06.29 11:07:00 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+2023.06.29 11:07:00 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 0.64s
+2023.06.29 11:07:50 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
+2023.06.29 11:07:51 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 0.77s

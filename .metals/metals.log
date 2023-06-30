@@ -6980,3 +6980,407 @@ Required: List[Int]
 2023.06.29 11:07:00 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 0.64s
 2023.06.29 11:07:50 WARN  no build target for: D:\Github\LeetCode\448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc
 2023.06.29 11:07:51 INFO  time: evaluated worksheet '448_Find_All_Numbers_Disappeared_in_an_Array.worksheet.sc' in 0.77s
+2023.06.29 11:24:29 WARN  no build target for: D:\Github\LeetCode\485_Max_Consecutive_Ones.worksheet.sc
+2023.06.29 11:24:31 INFO  no build target found for D:\Github\LeetCode\485_Max_Consecutive_Ones.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.29 11:24:31 INFO  time: evaluated worksheet '485_Max_Consecutive_Ones.worksheet.sc' in 2.06s
+2023.06.29 11:25:04 WARN  no build target for: D:\Github\LeetCode\485_Max_Consecutive_Ones.worksheet.sc
+2023.06.29 11:25:04 INFO  time: evaluated worksheet '485_Max_Consecutive_Ones.worksheet.sc' in 0.2s
+Jun 29, 2023 11:26:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2535
+2023.06.29 11:27:47 WARN  no build target for: D:\Github\LeetCode\485_Max_Consecutive_Ones.worksheet.sc
+[31merror[39m: 485_Max_Consecutive_Ones.worksheet.sc:11:1: 
+Not found: nums
+nums = Array(1,1,0,1,1,1)
+^^^^
+[31merror[39m: 485_Max_Consecutive_Ones.worksheet.sc:13:10: 
+Not found: nums
+for(i <- nums){
+         ^^^^
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:37 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          count = 0
+
+
+2023.06.29 11:27:47 INFO  time: evaluated worksheet '485_Max_Consecutive_Ones.worksheet.sc' in 0.15s
+2023.06.29 11:27:54 WARN  no build target for: D:\Github\LeetCode\485_Max_Consecutive_Ones.worksheet.sc
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:36 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          count = 0
+
+
+2023.06.29 11:27:54 INFO  time: evaluated worksheet '485_Max_Consecutive_Ones.worksheet.sc' in 0.26s
+2023.06.29 11:28:00 WARN  no build target for: D:\Github\LeetCode\485_Max_Consecutive_Ones.worksheet.sc
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:36 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          count = 0
+
+
+2023.06.29 11:28:00 INFO  time: evaluated worksheet '485_Max_Consecutive_Ones.worksheet.sc' in 0.27s
+Jun 29, 2023 11:29:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3138
+2023.06.29 11:29:14 WARN  no build target for: D:\Github\LeetCode\485_Max_Consecutive_Ones.worksheet.sc
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:36 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          count = 0
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:40 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+       if(maxCount < count){
+
+
+2023.06.29 11:29:14 INFO  time: evaluated worksheet '485_Max_Consecutive_Ones.worksheet.sc' in 0.23s
+Jun 29, 2023 11:29:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3161
+2023.06.29 11:29:34 WARN  no build target for: D:\Github\LeetCode\485_Max_Consecutive_Ones.worksheet.sc
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:36 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          count = 0
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:40 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+       if(maxCount < count){
+
+
+2023.06.29 11:29:34 INFO  time: evaluated worksheet '485_Max_Consecutive_Ones.worksheet.sc' in 0.25s
+2023.06.29 11:30:30 WARN  no build target for: D:\Github\LeetCode\485_Max_Consecutive_Ones.worksheet.sc
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:10 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+    var count : Int = 0
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:12 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+    for(i <- nums){
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:21 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        count = 0
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:25 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+     if(maxCount < count){
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:31 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+    maxCount       
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:58 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          count = 0
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:62 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+       if(maxCount < count){
+
+
+2023.06.29 11:30:30 INFO  time: evaluated worksheet '485_Max_Consecutive_Ones.worksheet.sc' in 0.37s
+Jun 29, 2023 11:32:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3351
+2023.06.29 11:32:08 WARN  no build target for: D:\Github\LeetCode\485_Max_Consecutive_Ones.worksheet.sc
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:21 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+                count = 0
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:25 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+             if(maxCount < count){
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:58 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          count = 0
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:62 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+       if(maxCount < count){
+
+
+2023.06.29 11:32:09 INFO  time: evaluated worksheet '485_Max_Consecutive_Ones.worksheet.sc' in 0.3s
+2023.06.29 11:34:57 WARN  no build target for: D:\Github\LeetCode\485_Max_Consecutive_Ones.worksheet.sc
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:21 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+                count = 0
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:25 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+             if(maxCount < count){
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:53 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        maxCount       
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:85 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          count = 0
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:89 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+       if(maxCount < count){
+
+
+2023.06.29 11:34:57 INFO  time: evaluated worksheet '485_Max_Consecutive_Ones.worksheet.sc' in 0.33s
+2023.06.29 11:35:15 WARN  no build target for: D:\Github\LeetCode\485_Max_Consecutive_Ones.worksheet.sc
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:21 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+                count = 0
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:25 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+             if(maxCount < count){
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:53 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        maxCount       
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:85 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          count = 0
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:89 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+       if(maxCount < count){
+
+
+2023.06.29 11:35:15 INFO  time: evaluated worksheet '485_Max_Consecutive_Ones.worksheet.sc' in 0.27s
+2023.06.29 11:35:27 WARN  no build target for: D:\Github\LeetCode\485_Max_Consecutive_Ones.worksheet.sc
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:21 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+                count = 0
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:25 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+             if(maxCount < count){
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:53 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        maxCount       
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:85 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          count = 0
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:89 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+       if(maxCount < count){
+
+
+2023.06.29 11:35:28 INFO  time: evaluated worksheet '485_Max_Consecutive_Ones.worksheet.sc' in 0.3s
+2023.06.29 11:35:32 WARN  no build target for: D:\Github\LeetCode\485_Max_Consecutive_Ones.worksheet.sc
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:21 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+                count = 0
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:25 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+             if(maxCount < count){
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:53 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        maxCount       
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:85 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          count = 0
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:89 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+       if(maxCount < count){
+
+
+2023.06.29 11:35:32 INFO  time: evaluated worksheet '485_Max_Consecutive_Ones.worksheet.sc' in 0.28s
+Jun 29, 2023 12:02:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3946
+2023.06.29 12:04:42 WARN  no build target for: D:\Github\LeetCode\485_Max_Consecutive_Ones.worksheet.sc
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:21 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+                count = 0
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:25 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+             if(maxCount < count){
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:53 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        maxCount       
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:96 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          count = 0
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:100 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+       if(maxCount < count){
+
+
+2023.06.29 12:04:42 INFO  time: evaluated worksheet '485_Max_Consecutive_Ones.worksheet.sc' in 0.43s
+2023.06.29 12:04:52 WARN  no build target for: D:\Github\LeetCode\485_Max_Consecutive_Ones.worksheet.sc
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:21 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+                count = 0
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:25 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+             if(maxCount < count){
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:53 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        maxCount       
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:101 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          count = 0
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:105 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+       if(maxCount < count){
+
+
+2023.06.29 12:04:53 INFO  time: evaluated worksheet '485_Max_Consecutive_Ones.worksheet.sc' in 0.35s
+2023.06.29 12:05:39 WARN  no build target for: D:\Github\LeetCode\485_Max_Consecutive_Ones.worksheet.sc
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:21 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+                count = 0
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:25 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+             if(maxCount < count){
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:53 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        maxCount       
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:101 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          count = 0
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:105 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+       if(maxCount < count){
+
+
+2023.06.29 12:05:40 INFO  time: evaluated worksheet '485_Max_Consecutive_Ones.worksheet.sc' in 0.53s
+2023.06.29 12:06:16 WARN  no build target for: D:\Github\LeetCode\485_Max_Consecutive_Ones.worksheet.sc
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:21 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+                count = 0
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:25 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+             if(maxCount < count){
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:53 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        maxCount       
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:101 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+          count = 0
+
+
+[33mwarning[39m: 
+485_Max_Consecutive_Ones.worksheet.sc:105 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+       if(maxCount < count){
+
+
+2023.06.29 12:06:16 INFO  time: evaluated worksheet '485_Max_Consecutive_Ones.worksheet.sc' in 0.48s
+2023.06.29 12:06:19 INFO  Shutting down server
+2023.06.29 12:06:19 INFO  shutting down Metals
+2023.06.29 12:06:19 INFO  Exiting server

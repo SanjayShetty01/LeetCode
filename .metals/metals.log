@@ -7657,3 +7657,40 @@ Required: Int
 2023.07.01 09:04:58 INFO  Shutting down server
 2023.07.01 09:04:58 INFO  shutting down Metals
 2023.07.01 09:04:58 INFO  Exiting server
+2023.07.02 12:44:44 INFO  Started: Metals version 0.11.12 in workspace 'D:\Github\LeetCode' for client Visual Studio Code 1.79.2.
+Jul 02, 2023 12:44:45 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jul 02, 2023 12:44:45 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 02, 2023 12:44:45 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 02, 2023 12:44:45 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Github\LeetCode\.metals\metals (H2 2.1)
+Jul 02, 2023 12:44:45 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.031s)
+Jul 02, 2023 12:44:45 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jul 02, 2023 12:44:45 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.02 12:44:45 INFO  time: initialize in 0.76s
+2023.07.02 12:44:47 WARN  Build server is not auto-connectable.
+2023.07.02 12:44:47 WARN  no build tool detected in workspace 'D:\Github\LeetCode'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.07.02 12:44:47 WARN  no build target for: D:\Github\LeetCode\628_Maximum_Product_of_Three_Numbers.worksheet.sc
+2023.07.02 12:44:52 INFO  no build target found for D:\Github\LeetCode\628_Maximum_Product_of_Three_Numbers.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.07.02 12:44:55 INFO  time: code lens generation in 8.43s
+2023.07.02 12:44:55 INFO  time: code lens generation in 8.45s
+2023.07.02 12:44:56 INFO  no build target found for D:\Github\LeetCode\628_Maximum_Product_of_Three_Numbers.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.07.02 12:44:55 INFO  time: evaluated worksheet '628_Maximum_Product_of_Three_Numbers.worksheet.sc' in 8.79s
+2023.07.02 12:45:00 WARN  no build target for: D:\Github\LeetCode\704_Binary_Search.worksheet.sc
+2023.07.02 12:45:02 INFO  no build target found for D:\Github\LeetCode\704_Binary_Search.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.07.02 12:45:02 INFO  time: evaluated worksheet '704_Binary_Search.worksheet.sc' in 2.06s
+2023.07.02 12:45:14 WARN  no build target for: D:\Github\LeetCode\704_Binary_Search.worksheet.sc
+2023.07.02 12:45:14 INFO  time: evaluated worksheet '704_Binary_Search.worksheet.sc' in 0.38s
+2023.07.02 12:52:11 WARN  no build target for: D:\Github\LeetCode\704_Binary_Search.worksheet.sc
+[31merror[39m: 704_Binary_Search.worksheet.sc:1:1: 
+Not found: oobject
+oobject Solution {
+^^^^^^^
+2023.07.02 12:52:11 INFO  time: evaluated worksheet '704_Binary_Search.worksheet.sc' in 0.28s
+2023.07.02 12:52:16 WARN  no build target for: D:\Github\LeetCode\704_Binary_Search.worksheet.sc
+2023.07.02 12:52:17 INFO  time: evaluated worksheet '704_Binary_Search.worksheet.sc' in 0.34s

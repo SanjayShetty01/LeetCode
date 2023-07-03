@@ -7694,3 +7694,6 @@ oobject Solution {
 2023.07.02 12:52:11 INFO  time: evaluated worksheet '704_Binary_Search.worksheet.sc' in 0.28s
 2023.07.02 12:52:16 WARN  no build target for: D:\Github\LeetCode\704_Binary_Search.worksheet.sc
 2023.07.02 12:52:17 INFO  time: evaluated worksheet '704_Binary_Search.worksheet.sc' in 0.34s
+2023.07.02 12:53:30 INFO  Shutting down server
+2023.07.02 12:53:30 INFO  shutting down Metals
+2023.07.02 12:53:30 INFO  Exiting server

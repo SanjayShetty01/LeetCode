@@ -7697,3 +7697,37 @@ oobject Solution {
 2023.07.02 12:53:30 INFO  Shutting down server
 2023.07.02 12:53:30 INFO  shutting down Metals
 2023.07.02 12:53:30 INFO  Exiting server
+2023.07.03 06:01:43 INFO  Started: Metals version 0.11.12 in workspace 'D:\Github\LeetCode' for client Visual Studio Code 1.79.2.
+Jul 03, 2023 6:01:43 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jul 03, 2023 6:01:43 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 03, 2023 6:01:43 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 03, 2023 6:01:43 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Github\LeetCode\.metals\metals (H2 2.1)
+Jul 03, 2023 6:01:43 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.026s)
+Jul 03, 2023 6:01:43 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jul 03, 2023 6:01:43 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.03 06:01:44 INFO  time: initialize in 0.67s
+2023.07.03 06:01:45 WARN  Build server is not auto-connectable.
+2023.07.03 06:01:45 WARN  no build tool detected in workspace 'D:\Github\LeetCode'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.07.03 06:01:45 WARN  no build target for: D:\Github\LeetCode\002_4_Median_of_Two_Sorted_Arrays.worksheet.sc
+2023.07.03 06:01:49 INFO  no build target found for D:\Github\LeetCode\002_4_Median_of_Two_Sorted_Arrays.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+[31merror[39m: 002_4_Median_of_Two_Sorted_Arrays.worksheet.sc:4:5: identifier expected but } found
+    }
+    ^
+Jul 03, 2023 6:01:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Jul 03, 2023 6:01:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+2023.07.03 06:01:53 INFO  no build target found for D:\Github\LeetCode\002_4_Median_of_Two_Sorted_Arrays.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.07.03 06:01:53 INFO  time: evaluated worksheet '002_4_Median_of_Two_Sorted_Arrays.worksheet.sc' in 7.83s
+2023.07.03 06:01:58 WARN  no build target for: D:\Github\LeetCode\002_4_Median_of_Two_Sorted_Arrays.worksheet.sc
+2023.07.03 06:01:58 INFO  time: evaluated worksheet '002_4_Median_of_Two_Sorted_Arrays.worksheet.sc' in 0.61s
+2023.07.03 06:02:14 INFO  Shutting down server
+2023.07.03 06:02:14 INFO  shutting down Metals
+2023.07.03 06:02:14 INFO  Exiting server
